@@ -1,0 +1,11 @@
+data/
+checkpoints/
+outputs/
+.git
+*.zarr
+*.zarr.zip
+*.ckpt
+*.pth
+*.pt
+*.mp4
+*.h5

@@ -1,0 +1,15 @@
+{
+    "benchmark": "Push-T (Vision-based)",
+    "workspace_class": "diffusion_policy.workspace.train_diffusion_unet_hybrid_workspace.TrainDiffusionUnetHybridWorkspace",
+    "seed": 42,
+    "compute_logs": {
+        "gpu_hardware": "NVIDIA GeForce RTX 4080",
+        "peak_vram_gb": 1.108,
+        "wall_clock_time_sec": 51.24
+    },
+    "metrics": {
+        "test_mean_score": 0.8199,
+        "sim_max_reward": 0.0
+    },
+    "checkpoint": "epoch=0550-test_mean_score=0.841.ckpt"
+}

@@ -1,0 +1,2065 @@
+.
+|-- checkpoints
+|   `-- pusht_vision_cnn.ckpt
+|-- diffusion_policy
+|   |-- compute_telemetry.json
+|   |-- conda_environment_macos.yaml
+|   |-- conda_environment_real.yaml
+|   |-- conda_environment.yaml
+|   |-- data
+|   |   |-- outputs
+|   |   |   `-- 2026.09.26
+|   |   |       `-- 14.18.30_train_diffusion_unet_hybrid_pusht_image
+|   |   |           |-- checkpoints
+|   |   |           |   |-- epoch=0400-test_mean_score=0.834.ckpt
+|   |   |           |   |-- epoch=0500-test_mean_score=0.831.ckpt
+|   |   |           |   |-- epoch=0550-test_mean_score=0.841.ckpt
+|   |   |           |   |-- epoch=0800-test_mean_score=0.838.ckpt
+|   |   |           |   |-- epoch=1350-test_mean_score=0.830.ckpt
+|   |   |           |   `-- latest.ckpt
+|   |   |           |-- logs.json.txt
+|   |   |           |-- media
+|   |   |           |   |-- 02htgjgi.mp4
+|   |   |           |   |-- 02x44661.mp4
+|   |   |           |   |-- 0676tvna.mp4
+|   |   |           |   |-- 090ntlfd.mp4
+|   |   |           |   |-- 09k0w6c5.mp4
+|   |   |           |   |-- 0ibo3mgh.mp4
+|   |   |           |   |-- 0pzfaehp.mp4
+|   |   |           |   |-- 0ud72jas.mp4
+|   |   |           |   |-- 0wi22gkl.mp4
+|   |   |           |   |-- 103bfhem.mp4
+|   |   |           |   |-- 12xkr5l5.mp4
+|   |   |           |   |-- 14cy0xvg.mp4
+|   |   |           |   |-- 15jcvrmg.mp4
+|   |   |           |   |-- 195vhk4o.mp4
+|   |   |           |   |-- 1cixad4d.mp4
+|   |   |           |   |-- 1idbwfro.mp4
+|   |   |           |   |-- 1ie5tjmq.mp4
+|   |   |           |   |-- 1jho9dp7.mp4
+|   |   |           |   |-- 1jikihib.mp4
+|   |   |           |   |-- 1njsvaxa.mp4
+|   |   |           |   |-- 1q990jgs.mp4
+|   |   |           |   |-- 1y8zbumm.mp4
+|   |   |           |   |-- 1zr6rbb7.mp4
+|   |   |           |   |-- 20cbmrcj.mp4
+|   |   |           |   |-- 21nboi5h.mp4
+|   |   |           |   |-- 22ckm5ty.mp4
+|   |   |           |   |-- 244ykfhk.mp4
+|   |   |           |   |-- 25vonhni.mp4
+|   |   |           |   |-- 27zpfvzs.mp4
+|   |   |           |   |-- 2b7erhkn.mp4
+|   |   |           |   |-- 2e4bujpv.mp4
+|   |   |           |   |-- 2h7krs39.mp4
+|   |   |           |   |-- 2jazvbzn.mp4
+|   |   |           |   |-- 2lq71t30.mp4
+|   |   |           |   |-- 2uad7jj3.mp4
+|   |   |           |   |-- 2v2sca6k.mp4
+|   |   |           |   |-- 2zkxtkts.mp4
+|   |   |           |   |-- 30np81a8.mp4
+|   |   |           |   |-- 37olqbaq.mp4
+|   |   |           |   |-- 3adc6qd1.mp4
+|   |   |           |   |-- 3gwg88e6.mp4
+|   |   |           |   |-- 3mi5g773.mp4
+|   |   |           |   |-- 3npxhedu.mp4
+|   |   |           |   |-- 3nrztjov.mp4
+|   |   |           |   |-- 3pfd5nap.mp4
+|   |   |           |   |-- 3zojm0ih.mp4
+|   |   |           |   |-- 40v6fpir.mp4
+|   |   |           |   |-- 45z76296.mp4
+|   |   |           |   |-- 4anfn2n9.mp4
+|   |   |           |   |-- 4dd2u2su.mp4
+|   |   |           |   |-- 4k4x9kn2.mp4
+|   |   |           |   |-- 4kx0fc5p.mp4
+|   |   |           |   |-- 4o67cb0t.mp4
+|   |   |           |   |-- 4rnbjtvo.mp4
+|   |   |           |   |-- 4sp1ylxr.mp4
+|   |   |           |   |-- 503f5409.mp4
+|   |   |           |   |-- 50s31g7i.mp4
+|   |   |           |   |-- 5457tmhq.mp4
+|   |   |           |   |-- 58zyt1je.mp4
+|   |   |           |   |-- 5d63g20f.mp4
+|   |   |           |   |-- 5h6jk7ur.mp4
+|   |   |           |   |-- 5iobn4le.mp4
+|   |   |           |   |-- 5jscolrp.mp4
+|   |   |           |   |-- 5mltk1p4.mp4
+|   |   |           |   |-- 5qzz7jgk.mp4
+|   |   |           |   |-- 64war5ac.mp4
+|   |   |           |   |-- 6bb8paj2.mp4
+|   |   |           |   |-- 6ekpwjxl.mp4
+|   |   |           |   |-- 6fjm04hd.mp4
+|   |   |           |   |-- 6j0ukx3k.mp4
+|   |   |           |   |-- 6kqs5rgl.mp4
+|   |   |           |   |-- 6kxcplkr.mp4
+|   |   |           |   |-- 6onrtit4.mp4
+|   |   |           |   |-- 6rymahj8.mp4
+|   |   |           |   |-- 6tjajdi1.mp4
+|   |   |           |   |-- 7234my1i.mp4
+|   |   |           |   |-- 7298t7oq.mp4
+|   |   |           |   |-- 74aa7jsn.mp4
+|   |   |           |   |-- 78r7epyz.mp4
+|   |   |           |   |-- 78zj03mz.mp4
+|   |   |           |   |-- 7chu7l27.mp4
+|   |   |           |   |-- 7ctcdd11.mp4
+|   |   |           |   |-- 7g060rh8.mp4
+|   |   |           |   |-- 7qm3w88k.mp4
+|   |   |           |   |-- 7wzv9l16.mp4
+|   |   |           |   |-- 7yb4w571.mp4
+|   |   |           |   |-- 86zjrvx6.mp4
+|   |   |           |   |-- 86zr3med.mp4
+|   |   |           |   |-- 8alvl4dq.mp4
+|   |   |           |   |-- 8ku2zswx.mp4
+|   |   |           |   |-- 8o57z3uq.mp4
+|   |   |           |   |-- 8syp3js5.mp4
+|   |   |           |   |-- 8yqvj2bh.mp4
+|   |   |           |   |-- 930zi5e6.mp4
+|   |   |           |   |-- 94v1oheq.mp4
+|   |   |           |   |-- 958lfvza.mp4
+|   |   |           |   |-- 98b7b0n4.mp4
+|   |   |           |   |-- 98vnh308.mp4
+|   |   |           |   |-- 9agg71fo.mp4
+|   |   |           |   |-- 9aoevrke.mp4
+|   |   |           |   |-- 9cjxmq2n.mp4
+|   |   |           |   |-- 9cvh7eyi.mp4
+|   |   |           |   |-- 9fpw0087.mp4
+|   |   |           |   |-- 9n2y4qqa.mp4
+|   |   |           |   |-- 9uro5n4m.mp4
+|   |   |           |   |-- 9w2hu37z.mp4
+|   |   |           |   |-- 9yj00far.mp4
+|   |   |           |   |-- 9z21xjww.mp4
+|   |   |           |   |-- a7lu22rf.mp4
+|   |   |           |   |-- a7ura5ou.mp4
+|   |   |           |   |-- a9ko5ypl.mp4
+|   |   |           |   |-- af1wmw7p.mp4
+|   |   |           |   |-- ajyvkolh.mp4
+|   |   |           |   |-- am2erxiw.mp4
+|   |   |           |   |-- ao663eb6.mp4
+|   |   |           |   |-- aqp5w49k.mp4
+|   |   |           |   |-- aw550hcd.mp4
+|   |   |           |   |-- aye8bn9x.mp4
+|   |   |           |   |-- b5521a48.mp4
+|   |   |           |   |-- b6whcg0d.mp4
+|   |   |           |   |-- b8oxq02c.mp4
+|   |   |           |   |-- baac6d91.mp4
+|   |   |           |   |-- bbh6dy1b.mp4
+|   |   |           |   |-- bgorsbf7.mp4
+|   |   |           |   |-- bi5vi8cp.mp4
+|   |   |           |   |-- blj8b8wt.mp4
+|   |   |           |   |-- bmwhsyhi.mp4
+|   |   |           |   |-- bp73oq22.mp4
+|   |   |           |   |-- bqf9cxor.mp4
+|   |   |           |   |-- bvminp17.mp4
+|   |   |           |   |-- by9tyxyv.mp4
+|   |   |           |   |-- bzlgt6bw.mp4
+|   |   |           |   |-- c2esi0ib.mp4
+|   |   |           |   |-- c4fvyjtp.mp4
+|   |   |           |   |-- c9pf9bpb.mp4
+|   |   |           |   |-- ccrsi0up.mp4
+|   |   |           |   |-- cdpjxko5.mp4
+|   |   |           |   |-- ce320vez.mp4
+|   |   |           |   |-- ced0dix0.mp4
+|   |   |           |   |-- chvw1itm.mp4
+|   |   |           |   |-- cjn5sdsy.mp4
+|   |   |           |   |-- cmkfj81c.mp4
+|   |   |           |   |-- cojz6ct9.mp4
+|   |   |           |   |-- cq1crdvu.mp4
+|   |   |           |   |-- ctn7u1kv.mp4
+|   |   |           |   |-- cu8s8o2g.mp4
+|   |   |           |   |-- cvchb427.mp4
+|   |   |           |   |-- cwm2rl5f.mp4
+|   |   |           |   |-- d3ke3g91.mp4
+|   |   |           |   |-- d3vp6f3b.mp4
+|   |   |           |   |-- dcctjhiz.mp4
+|   |   |           |   |-- di2qr02n.mp4
+|   |   |           |   |-- dkfijo77.mp4
+|   |   |           |   |-- dogotiky.mp4
+|   |   |           |   |-- drv9arju.mp4
+|   |   |           |   |-- dtrqmyoc.mp4
+|   |   |           |   |-- e6igsbhs.mp4
+|   |   |           |   |-- e6yhi8uc.mp4
+|   |   |           |   |-- eh60mr37.mp4
+|   |   |           |   |-- ekj1gokb.mp4
+|   |   |           |   |-- em7ehz57.mp4
+|   |   |           |   |-- emjckp4b.mp4
+|   |   |           |   |-- eo7o3hgh.mp4
+|   |   |           |   |-- epqsy1t3.mp4
+|   |   |           |   |-- ewllbsia.mp4
+|   |   |           |   |-- ewrzifl9.mp4
+|   |   |           |   |-- ezrcuouq.mp4
+|   |   |           |   |-- f4r6oe00.mp4
+|   |   |           |   |-- f7n9veau.mp4
+|   |   |           |   |-- f912dea4.mp4
+|   |   |           |   |-- fbvrwej4.mp4
+|   |   |           |   |-- fbxqavdy.mp4
+|   |   |           |   |-- fg7gnp9k.mp4
+|   |   |           |   |-- fie31ra8.mp4
+|   |   |           |   |-- fpm46jys.mp4
+|   |   |           |   |-- fpz8zyil.mp4
+|   |   |           |   |-- fry1wkon.mp4
+|   |   |           |   |-- fs8wcdkn.mp4
+|   |   |           |   |-- ft70yuja.mp4
+|   |   |           |   |-- fwnqxqf3.mp4
+|   |   |           |   |-- fxqk2dra.mp4
+|   |   |           |   |-- fy4d7ans.mp4
+|   |   |           |   |-- fzioxabp.mp4
+|   |   |           |   |-- g1a6g4q5.mp4
+|   |   |           |   |-- g3fa04ab.mp4
+|   |   |           |   |-- gaid7fyc.mp4
+|   |   |           |   |-- gft16ls9.mp4
+|   |   |           |   |-- gga2briq.mp4
+|   |   |           |   |-- gh5fr6ph.mp4
+|   |   |           |   |-- gt7rw1rw.mp4
+|   |   |           |   |-- gteuzjkp.mp4
+|   |   |           |   |-- gvys5idv.mp4
+|   |   |           |   |-- gwi1gob0.mp4
+|   |   |           |   |-- gynv8glu.mp4
+|   |   |           |   |-- h3b5z6mu.mp4
+|   |   |           |   |-- hc8w5ygk.mp4
+|   |   |           |   |-- hfo0ztsd.mp4
+|   |   |           |   |-- hhfxlovd.mp4
+|   |   |           |   |-- hj9xh9xt.mp4
+|   |   |           |   |-- hk1iswec.mp4
+|   |   |           |   |-- hly3aznm.mp4
+|   |   |           |   |-- i262zhdl.mp4
+|   |   |           |   |-- icbuiykl.mp4
+|   |   |           |   |-- if3e43c9.mp4
+|   |   |           |   |-- io5llprc.mp4
+|   |   |           |   |-- ipa7gvi7.mp4
+|   |   |           |   |-- ixc7f88y.mp4
+|   |   |           |   |-- j6cqfh19.mp4
+|   |   |           |   |-- jbm07t7h.mp4
+|   |   |           |   |-- jbrkfoc9.mp4
+|   |   |           |   |-- jdo9vujq.mp4
+|   |   |           |   |-- jksmo5gi.mp4
+|   |   |           |   |-- jmbqfl1q.mp4
+|   |   |           |   |-- jnr3p8yx.mp4
+|   |   |           |   |-- jp1m0dw4.mp4
+|   |   |           |   |-- jpkokd6u.mp4
+|   |   |           |   |-- jylzq7d3.mp4
+|   |   |           |   |-- k2dbrl6d.mp4
+|   |   |           |   |-- k8ff846i.mp4
+|   |   |           |   |-- ka8384jm.mp4
+|   |   |           |   |-- ka875hk2.mp4
+|   |   |           |   |-- kav6gvv0.mp4
+|   |   |           |   |-- kdy7ftnu.mp4
+|   |   |           |   |-- kknqmx8j.mp4
+|   |   |           |   |-- klwtwvs9.mp4
+|   |   |           |   |-- knu0awiu.mp4
+|   |   |           |   |-- kqp57stu.mp4
+|   |   |           |   |-- krrc1cl9.mp4
+|   |   |           |   |-- kv9kh57w.mp4
+|   |   |           |   |-- kxn2oyis.mp4
+|   |   |           |   |-- l0r253il.mp4
+|   |   |           |   |-- l1ed1ydb.mp4
+|   |   |           |   |-- l7xfqndr.mp4
+|   |   |           |   |-- l8y0glel.mp4
+|   |   |           |   |-- l917cyaj.mp4
+|   |   |           |   |-- lheu0vic.mp4
+|   |   |           |   |-- lkbpjvex.mp4
+|   |   |           |   |-- ln27e3gm.mp4
+|   |   |           |   |-- ly6m770x.mp4
+|   |   |           |   |-- lyiotr0f.mp4
+|   |   |           |   |-- m1bm3fel.mp4
+|   |   |           |   |-- m6jxvnbb.mp4
+|   |   |           |   |-- m8zkgltp.mp4
+|   |   |           |   |-- mb516cpx.mp4
+|   |   |           |   |-- mbwnhu6c.mp4
+|   |   |           |   |-- mpjak5p9.mp4
+|   |   |           |   |-- mwileqh3.mp4
+|   |   |           |   |-- mzzyhs8n.mp4
+|   |   |           |   |-- n1egc7wq.mp4
+|   |   |           |   |-- n3hyy18l.mp4
+|   |   |           |   |-- n3r0joea.mp4
+|   |   |           |   |-- n8nt03ca.mp4
+|   |   |           |   |-- naf0okxp.mp4
+|   |   |           |   |-- nafcd1yb.mp4
+|   |   |           |   |-- ndu7fxbl.mp4
+|   |   |           |   |-- nl2lu4e8.mp4
+|   |   |           |   |-- nryi4pu7.mp4
+|   |   |           |   |-- nu10xsv6.mp4
+|   |   |           |   |-- olknwxev.mp4
+|   |   |           |   |-- ond45e5f.mp4
+|   |   |           |   |-- orirvryh.mp4
+|   |   |           |   |-- oubzt9d4.mp4
+|   |   |           |   |-- oyvk7ojc.mp4
+|   |   |           |   |-- p092iq27.mp4
+|   |   |           |   |-- p0i45pfq.mp4
+|   |   |           |   |-- p3z4bwp2.mp4
+|   |   |           |   |-- p6k88pfc.mp4
+|   |   |           |   |-- phlf9xmz.mp4
+|   |   |           |   |-- pk9w5fu8.mp4
+|   |   |           |   |-- pkv2zghl.mp4
+|   |   |           |   |-- pnj6iu9r.mp4
+|   |   |           |   |-- pnjst3cf.mp4
+|   |   |           |   |-- po5wdomg.mp4
+|   |   |           |   |-- pqrphutq.mp4
+|   |   |           |   |-- pxdq1k18.mp4
+|   |   |           |   |-- py6d0v1b.mp4
+|   |   |           |   |-- pyr974bf.mp4
+|   |   |           |   |-- pyurd2pc.mp4
+|   |   |           |   |-- pzoangan.mp4
+|   |   |           |   |-- q0ebl561.mp4
+|   |   |           |   |-- qdytvala.mp4
+|   |   |           |   |-- qg4tgc5q.mp4
+|   |   |           |   |-- qk9shney.mp4
+|   |   |           |   |-- qldbaq43.mp4
+|   |   |           |   |-- qnoqk0c3.mp4
+|   |   |           |   |-- qoajy2at.mp4
+|   |   |           |   |-- qt9stfzk.mp4
+|   |   |           |   |-- qut5ocx1.mp4
+|   |   |           |   |-- qzdrpfrp.mp4
+|   |   |           |   |-- ra2qlb3b.mp4
+|   |   |           |   |-- rbf3qrc9.mp4
+|   |   |           |   |-- rjif66cq.mp4
+|   |   |           |   |-- rrmew1io.mp4
+|   |   |           |   |-- s0oz8hpf.mp4
+|   |   |           |   |-- s6rbfx4h.mp4
+|   |   |           |   |-- s951fpth.mp4
+|   |   |           |   |-- s9znpnfs.mp4
+|   |   |           |   |-- sep5mrlo.mp4
+|   |   |           |   |-- sgpgkzag.mp4
+|   |   |           |   |-- si9zozsa.mp4
+|   |   |           |   |-- sihd3p5k.mp4
+|   |   |           |   |-- siu7tgq5.mp4
+|   |   |           |   |-- spvj29ww.mp4
+|   |   |           |   |-- sq1sxl64.mp4
+|   |   |           |   |-- ssd0o4da.mp4
+|   |   |           |   |-- svhk08es.mp4
+|   |   |           |   |-- swfho21e.mp4
+|   |   |           |   |-- sy3is0kw.mp4
+|   |   |           |   |-- syobqyzf.mp4
+|   |   |           |   |-- syswom0d.mp4
+|   |   |           |   |-- szt45mm3.mp4
+|   |   |           |   |-- tirfqbis.mp4
+|   |   |           |   |-- tprbpl2j.mp4
+|   |   |           |   |-- tvjnvgvo.mp4
+|   |   |           |   |-- u3wn79yv.mp4
+|   |   |           |   |-- u4vqly5d.mp4
+|   |   |           |   |-- u62pudhm.mp4
+|   |   |           |   |-- uexjxtcp.mp4
+|   |   |           |   |-- ufgytmrb.mp4
+|   |   |           |   |-- unl98j4k.mp4
+|   |   |           |   |-- uoovqlbq.mp4
+|   |   |           |   |-- up4ctnt5.mp4
+|   |   |           |   |-- v5cqlqlj.mp4
+|   |   |           |   |-- vapuhob8.mp4
+|   |   |           |   |-- var4nhyn.mp4
+|   |   |           |   |-- vfr2c414.mp4
+|   |   |           |   |-- vhcl4vu7.mp4
+|   |   |           |   |-- vhvh8me8.mp4
+|   |   |           |   |-- vnlnc7br.mp4
+|   |   |           |   |-- vobwlkfb.mp4
+|   |   |           |   |-- vqi2ntld.mp4
+|   |   |           |   |-- vtfgflne.mp4
+|   |   |           |   |-- vybfcrjb.mp4
+|   |   |           |   |-- wc1so1ts.mp4
+|   |   |           |   |-- whk8ogd1.mp4
+|   |   |           |   |-- wpmr2b05.mp4
+|   |   |           |   |-- wseoxxme.mp4
+|   |   |           |   |-- wzpvohnc.mp4
+|   |   |           |   |-- x2vw7evs.mp4
+|   |   |           |   |-- x4fmhleb.mp4
+|   |   |           |   |-- x5o4y9wv.mp4
+|   |   |           |   |-- x7nwzwsa.mp4
+|   |   |           |   |-- xiby8t61.mp4
+|   |   |           |   |-- xsik1sf6.mp4
+|   |   |           |   |-- xwevcx37.mp4
+|   |   |           |   |-- xwtqzl7j.mp4
+|   |   |           |   |-- y25dfrfu.mp4
+|   |   |           |   |-- y3vhsdvm.mp4
+|   |   |           |   |-- y50hkn7k.mp4
+|   |   |           |   |-- y541e33b.mp4
+|   |   |           |   |-- ydbnhsf2.mp4
+|   |   |           |   |-- yhpud1k0.mp4
+|   |   |           |   |-- yrjfpeb7.mp4
+|   |   |           |   |-- yu8oi5qo.mp4
+|   |   |           |   |-- yx9k73wh.mp4
+|   |   |           |   |-- z77r8wbf.mp4
+|   |   |           |   |-- z9u9fdwy.mp4
+|   |   |           |   |-- za66izzv.mp4
+|   |   |           |   |-- zhgoc3o3.mp4
+|   |   |           |   |-- zmj8qmuv.mp4
+|   |   |           |   |-- zn2vgf1h.mp4
+|   |   |           |   |-- znm1yzca.mp4
+|   |   |           |   |-- zp0swgqu.mp4
+|   |   |           |   |-- zwexqebt.mp4
+|   |   |           |   |-- zxpwzjuk.mp4
+|   |   |           |   `-- zz62rg15.mp4
+|   |   |           |-- train_telemetry.log
+|   |   |           `-- wandb
+|   |   |               |-- debug-internal.log -> offline-run-20260926_141837-qip62jj2/logs/debug-internal.log
+|   |   |               |-- debug.log -> offline-run-20260926_141837-qip62jj2/logs/debug.log
+|   |   |               |-- latest-run -> offline-run-20260926_141837-qip62jj2
+|   |   |               |-- offline-run-20260926_141837-qip62jj2
+|   |   |               |   |-- files
+|   |   |               |   |   |-- media
+|   |   |               |   |   |   `-- videos
+|   |   |               |   |   |       |-- test
+|   |   |               |   |   |       |   |-- sim_video_100000_100966_e379f4cca7505cdbcdb6.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_109366_44bc5a63a30f5824df9a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_117766_e0831513be6141efaef1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_126166_d92d63c39b534ae725c1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_134566_95904a5123459fab4bb9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_142966_bea4b4b246896ac0aadf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_151366_a4edeeaf0e45a34372ee.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_159766_85f2b0eed623af271ef7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_166_951ae0714348a0290415.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_168166_1a5a8afb1cd491bf38da.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_16966_6da877c6d4a542801974.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_176566_c459c3e44ac52a29e3ea.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_184966_83b8998a28fe888f6b28.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_193366_9585399a49202fb207cf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_201766_82e23142f76217d1e968.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_210166_64f28c9d96f3e22ad443.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_218566_dd533db92044645f156e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_226966_9275aa224f8c6bd9758a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_235366_84da62874e11f2ac61c1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_243766_d67cdb000918f911ce44.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_252166_b344c1280799d8ec82d5.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_25366_d56e1cc33147bcd5bf05.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_260566_4fd447b682e1b1e5af88.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_268966_7e62b4fc7dd149f931df.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_277366_64bae6e4cfe491583b63.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_285766_be22da4130572d9eeaa8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_294166_9b0aefddbfee1e540448.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_302566_7170c6be64e1cdc7b442.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_310966_c8693598a4534cb15c80.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_319366_feed892101989c348eb8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_327766_618d0eb566a85eda98a8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_336166_c77983ec78f68bda2b5b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_33766_663728e240381e974700.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_344566_4b2cc03e448e314c4c00.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_352966_5dad8e258c7f9efd46a0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_361366_dc6606e6089164fd907d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_369766_d469a5b3832161f50ce2.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_378166_ba22a0f43f775ebcb9bc.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_386566_afbc9446506557fdca7f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_394966_70b8a650924b3cc07283.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_403366_ce736bb092c87b3c6e10.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_411766_d77b542b0f58d4b3caf6.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_420166_9ebe164f1f4bf39cc411.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_42166_3e4a81117963697df0f1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_428566_3419dc6e688096ad0dec.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_436966_0aa5e6fb3d98cb5516bc.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_445366_ac96f025e76dc1aadf15.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_453766_a8f5ca7027b714cc9e59.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_462166_0daa2fb2cb4b1b88a73b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_470566_c593ad93914f9e0be1bb.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_478966_73ed4f631b3911689e8e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_487366_e071e890341b45198a6f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_495766_6ca81371abf1733fb855.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_504166_499c2acc7a1290dcc3ce.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_50566_9c9f6cf0c8f7a39eb002.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_58966_95893c2d9810a8b6db82.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_67366_2cf2504855204d1d22b7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_75766_42f11681cf23dd479bf7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_84166_4b7b54a81ea10d783d07.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_8566_00069f7d90c186b65378.mp4
+|   |   |               |   |   |       |   |-- sim_video_100000_92566_48f50d8eaafbe6652e47.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_100966_6ac4bd3387364621368e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_109366_7630ec0996e6899c58c6.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_117766_81578517ee91b3c27ba0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_126166_f5c12169013a8110e1bf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_134566_ac93aac41e1a998d0160.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_142966_50d1de3d4296f2f6f5d4.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_151366_db7ae373811fc1337789.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_159766_e7e2798741776983bba4.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_166_dd36d699bd1f80405c15.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_168166_abd8f8e619b99dc092b2.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_16966_8b549b91e9e2ac830771.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_176566_d6749c3e4ba778d414ec.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_184966_228903964fa24f54a3e4.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_193366_38bd8f28f9246616211b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_201766_22f99070e13c949091f5.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_210166_c01ebe43b8b951492765.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_218566_d1f7d6222f219ee15dcd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_226966_d3c1ec6df91c93edec24.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_235366_dc9696b865850ce3d6f1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_243766_c05e26c0e07f661333af.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_252166_261f7e3862e20d0d5229.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_25366_871ed94fbfc8b015457d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_260566_195527b822713f2ce974.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_268966_b0076d1073aec4be6801.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_277366_231c3669b167db070740.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_285766_73bb906681cbc6c61c79.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_294166_2ef3a7a7d31c2892396e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_302566_a0629561b6c2bf93778a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_310966_088b0ee39e59e058b70c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_319366_03dd36da4d20bafa0d88.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_327766_c7bf55a43fd3ed06cd6d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_336166_1faad15a8659252eb275.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_33766_f7160f7ffd7d70bf76d5.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_344566_3e54e527db837a137848.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_352966_733127f0d546ef7858a7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_361366_237d8b5a62f124f9b28b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_369766_705cd7914ba8a0524b31.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_378166_492abd7c8ab4498176bf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_386566_1839c60e35eb28a44128.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_394966_dbda240803e3f53f2da2.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_403366_990ec6c3ba480f531d39.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_411766_f8178dcd26b90703277f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_420166_d738c6ed00ae8700fede.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_42166_4165abe9a03fe91ae98f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_428566_f00451b6dcb99e42feca.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_436966_54f9ae4a07e245520d2d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_445366_f35899d10e0b528f9e3b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_453766_a214bef7f2337ea98fb0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_462166_f593f6cc78597351b5bf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_470566_9f2de94f03b905ac0a34.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_478966_7f3d6f7e4c67ce464800.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_487366_02ca9e1d39460ef1a4f0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_495766_11d03d01a87b05f2c8bf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_504166_f2368adbf161bc23c023.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_50566_6b0c97ee51dcdb16a25f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_58966_8180274bb57f40d1e530.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_67366_89ad8946fcaa89d7d4cd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_75766_bb6e04a4135600595e85.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_84166_e018d9688f3e159101d8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_8566_fd747c715594c0bd86a2.mp4
+|   |   |               |   |   |       |   |-- sim_video_100001_92566_b134907a0bf250880556.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_100966_fef2b400a61467bfdd3a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_109366_ea4da6f18504e55de269.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_117766_6a90a4e1fe25860b7db9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_126166_68025ccd042415e2353b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_134566_ff70b0422674008ad7e1.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_142966_d13b4ed1b2557352e8e8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_151366_d3f22f29f1aeb5413688.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_159766_cd01d5bbf1318967611a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_166_956739ca572077a2a8f7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_168166_19eceb5407527468bd19.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_16966_c165d5a0a37ef5a00803.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_176566_d8eb9587b7565be0f3c7.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_184966_39c34bf59e8dff45aa5f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_193366_c5753cb34939699097fd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_201766_9da9fa080529f7436a2f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_210166_599021a9dd64f716f3d9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_218566_e05bb8812f19a8a00dca.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_226966_47e7c27e269009f2d6e6.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_235366_19f9d76642c739c23d05.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_243766_b043e2086c61ad89eb5f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_252166_33367baa839ce1f1703b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_25366_378cceea0dad6b3856bd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_260566_f2d5e975ba2c85659893.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_268966_1e356dd4dd91af388224.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_277366_9a5be3f975a39a7df668.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_285766_7853196bf0b10147a20d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_294166_fcd858bb2df8ef6fcb68.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_302566_617d9a6554d19cf9ac6e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_310966_4f5f8d93a61069fa70bd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_319366_ff25dcd39fb246955a67.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_327766_327af33a23133de7af5a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_336166_304653f01ddd719c6b49.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_33766_a2e2d41da1d5e91a9d5c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_344566_6f5de5971e1dfe973a59.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_352966_c47e8d4d04cf37a19cfa.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_361366_6980f75e99b23000e3a0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_369766_f6e8dd569a2ea874d435.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_378166_45fe57577857ba22d862.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_386566_f3a638c7be28f45d9682.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_394966_afc3aeda5e219db3735a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_403366_492dfbc0aad49d4a4de2.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_411766_113264e71d6055b9320f.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_420166_61b0f96db4ad76982353.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_42166_cec0a1abb0904a95680a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_428566_0384d77aa77b9888dd64.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_436966_45e295876ba0894db981.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_445366_d28c07ae5c2751a9f9fb.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_453766_5d642f649555abe3f4f4.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_462166_f563b5b41f12d7d6b278.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_470566_29926de70cb04b259528.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_478966_091d64eb426ce9c3087d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_487366_4f5dcf5d47201d17b6c9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_495766_82a70da53f3306003083.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_504166_29b262f86e07bfec628d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_50566_4e617e68653a17bf1003.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_58966_2fed333072c42e85198e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_67366_e3823500ebc6782c361b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_75766_cef81026254777f248f4.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_84166_d73bccab720f27f2224c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_8566_a4f0edcef9fbd130b958.mp4
+|   |   |               |   |   |       |   |-- sim_video_100002_92566_6bbd1d10abdb8ea2d134.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_100966_0e06ab7036456aac9470.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_109366_02d8cd604089437b601b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_117766_4f8f0d958d3cea0346e3.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_126166_99e2346253f5a948bb2c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_134566_dc3cbe1753ba95aef9cd.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_142966_3002c92f4b356681d31c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_151366_7087c0aa9619a684745e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_159766_4db26dbf500247b85a75.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_166_e5b656ae53ec9793ad38.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_168166_f1618e6e30acb5c86934.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_16966_3be2f66b2f527f36978c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_176566_1cab600ab40f086d8532.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_184966_8f6a315ab2e2e1b2b068.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_193366_9dd680f7036a5998133a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_201766_ab602757d41ba1c93230.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_210166_ad3a8f7c7ef42d1c5e97.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_218566_6cb47eedb3ca27f2e216.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_226966_27c55c2f3810a0fae652.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_235366_c44f05da4199b896a3e3.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_243766_1df81bd045acfa6a8145.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_252166_d08b233661d445d12487.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_25366_fcbb53f2b4a548a2dcf0.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_260566_fee0ebd935eaaf2c23b8.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_268966_b3975af6af8d1d0da251.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_277366_8f4b6304c11df20ffea9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_285766_ffbfb136e58371c2d957.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_294166_a047f8705df2e88c9a0d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_302566_f0d00425f269c9cdeb88.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_310966_402e305cffbd61482a8c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_319366_900ea0e80a02974a2e0d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_327766_a70d03761a5050805a2d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_336166_5e655bbfdcc6aaea9b33.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_33766_89fdf7b56ab7619f9f86.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_344566_18120e0386bb05c77f8d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_352966_e39238e10f5d280ac66e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_361366_1640c035dfcc59faf879.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_369766_65a1e8f46c185ef2d04b.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_378166_95f2a28b8f53d4f89e56.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_386566_02209be792706abf1429.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_394966_9731c618b845d7e8178d.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_403366_82f19b9bb94f7a4d2878.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_411766_26ee947a6698fb1afffa.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_420166_e15e6ed729f70a42736a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_42166_fb4ffadbade40d31f3fb.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_428566_7206226c4b924d10696a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_436966_cf9195ff860fca218449.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_445366_368e6f6986f59a5210fe.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_453766_d172333f30dfe487115e.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_462166_53def1b3102863696e72.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_470566_964614cf6ec9af872b04.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_478966_3ca6b12c1b8e06ca69a5.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_487366_cc7fb57d447d58b0030a.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_495766_625a8933c91e0e488a48.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_504166_1957af77250bfcbdfd40.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_50566_23e074cf2ca3f0012344.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_58966_92fe2d4c86f66efffdf9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_67366_47a54808a8e3a5b54aaf.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_75766_b20d1d66bb03646af41c.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_84166_5dfcfa1faa239b49cfa9.mp4
+|   |   |               |   |   |       |   |-- sim_video_100003_8566_2f60ef39b22c44d2fafa.mp4
+|   |   |               |   |   |       |   `-- sim_video_100003_92566_4813fdfa9c3cf9f72e0b.mp4
+|   |   |               |   |   |       `-- train
+|   |   |               |   |   |           |-- sim_video_0_100966_4d10f793bd39de3c0aa2.mp4
+|   |   |               |   |   |           |-- sim_video_0_109366_638c2ac81f2fe6059ded.mp4
+|   |   |               |   |   |           |-- sim_video_0_117766_4e52dc82dc8e6463087b.mp4
+|   |   |               |   |   |           |-- sim_video_0_126166_f689ab6b7d73db6c4fc8.mp4
+|   |   |               |   |   |           |-- sim_video_0_134566_dddb1b6eefe51106c850.mp4
+|   |   |               |   |   |           |-- sim_video_0_142966_e91a1855c95022016cd9.mp4
+|   |   |               |   |   |           |-- sim_video_0_151366_88a94b6e618fe2de61fa.mp4
+|   |   |               |   |   |           |-- sim_video_0_159766_4ce6ee0b4bf8bc5dd3ec.mp4
+|   |   |               |   |   |           |-- sim_video_0_166_05ff2e4dc9f6c99396a4.mp4
+|   |   |               |   |   |           |-- sim_video_0_168166_45ae8ab7347ec8e772d7.mp4
+|   |   |               |   |   |           |-- sim_video_0_16966_147089af1400ae83e0bf.mp4
+|   |   |               |   |   |           |-- sim_video_0_176566_9f1663d404b5484a7b86.mp4
+|   |   |               |   |   |           |-- sim_video_0_184966_1dba141fecc5122d9fce.mp4
+|   |   |               |   |   |           |-- sim_video_0_193366_7bb9278e13caf65acb0e.mp4
+|   |   |               |   |   |           |-- sim_video_0_201766_890a87e26d03a1c93a46.mp4
+|   |   |               |   |   |           |-- sim_video_0_210166_a530f58cdd25550971c2.mp4
+|   |   |               |   |   |           |-- sim_video_0_218566_7c7b769938f688fa575a.mp4
+|   |   |               |   |   |           |-- sim_video_0_226966_b2fff3f27ea2d7dcbebb.mp4
+|   |   |               |   |   |           |-- sim_video_0_235366_7b4b5da32f9ade3bfd8b.mp4
+|   |   |               |   |   |           |-- sim_video_0_243766_2f005e2534e6b1159e09.mp4
+|   |   |               |   |   |           |-- sim_video_0_252166_37032ffbadafe3868a71.mp4
+|   |   |               |   |   |           |-- sim_video_0_25366_a44ab2cb177b631938ee.mp4
+|   |   |               |   |   |           |-- sim_video_0_260566_0a397f098768412e02f2.mp4
+|   |   |               |   |   |           |-- sim_video_0_268966_7b9b3f1c76c432fa4869.mp4
+|   |   |               |   |   |           |-- sim_video_0_277366_f008a920aeb85709c00b.mp4
+|   |   |               |   |   |           |-- sim_video_0_285766_b68d99f74df78c5adbdb.mp4
+|   |   |               |   |   |           |-- sim_video_0_294166_aa6e729d58a4c20aeef0.mp4
+|   |   |               |   |   |           |-- sim_video_0_302566_26110de6d9113d1a190a.mp4
+|   |   |               |   |   |           |-- sim_video_0_310966_3745a3846c7114c0a199.mp4
+|   |   |               |   |   |           |-- sim_video_0_319366_b55846ae1509c5fc8db7.mp4
+|   |   |               |   |   |           |-- sim_video_0_327766_1e126efe8355c5626fdb.mp4
+|   |   |               |   |   |           |-- sim_video_0_336166_479d1fd8f98f82a2ab3d.mp4
+|   |   |               |   |   |           |-- sim_video_0_33766_fea9cfebc045177695ca.mp4
+|   |   |               |   |   |           |-- sim_video_0_344566_0ea3fabd1eeb5d0e7eed.mp4
+|   |   |               |   |   |           |-- sim_video_0_352966_6267b688ceef1888236f.mp4
+|   |   |               |   |   |           |-- sim_video_0_361366_5a7eb539982baa8abb4c.mp4
+|   |   |               |   |   |           |-- sim_video_0_369766_599bdf643415e55cb5e0.mp4
+|   |   |               |   |   |           |-- sim_video_0_378166_d69f43bf4e8092b251c2.mp4
+|   |   |               |   |   |           |-- sim_video_0_386566_d64b1fc5b03d47f7e603.mp4
+|   |   |               |   |   |           |-- sim_video_0_394966_ad90d9f3acddeab2b78e.mp4
+|   |   |               |   |   |           |-- sim_video_0_403366_1be80c3293835f07f654.mp4
+|   |   |               |   |   |           |-- sim_video_0_411766_e3239b5b4673c4605be6.mp4
+|   |   |               |   |   |           |-- sim_video_0_420166_5d00bd6852731bd9fad1.mp4
+|   |   |               |   |   |           |-- sim_video_0_42166_0ae5efe00278397d9141.mp4
+|   |   |               |   |   |           |-- sim_video_0_428566_8f28fe46d030a592899f.mp4
+|   |   |               |   |   |           |-- sim_video_0_436966_623737fdbf57dc9dd445.mp4
+|   |   |               |   |   |           |-- sim_video_0_445366_ac9886143f347559dcdc.mp4
+|   |   |               |   |   |           |-- sim_video_0_453766_a3bbf9efdc811d16544b.mp4
+|   |   |               |   |   |           |-- sim_video_0_462166_0d0dd0d6eacc382945ad.mp4
+|   |   |               |   |   |           |-- sim_video_0_470566_713fe066d5be5b972366.mp4
+|   |   |               |   |   |           |-- sim_video_0_478966_1d6cec2f6934543fde94.mp4
+|   |   |               |   |   |           |-- sim_video_0_487366_77179533ed0eecf167e0.mp4
+|   |   |               |   |   |           |-- sim_video_0_495766_18b26d34bad72b39222c.mp4
+|   |   |               |   |   |           |-- sim_video_0_504166_3879d1c5a26ca4a2fe3a.mp4
+|   |   |               |   |   |           |-- sim_video_0_50566_2db5226ed4907137898a.mp4
+|   |   |               |   |   |           |-- sim_video_0_58966_9c414b5e57c13303b425.mp4
+|   |   |               |   |   |           |-- sim_video_0_67366_9e24799bcb953e6fdf4e.mp4
+|   |   |               |   |   |           |-- sim_video_0_75766_46dcb43c3f3cbf97e25a.mp4
+|   |   |               |   |   |           |-- sim_video_0_84166_848e0dcc2e340ba4c816.mp4
+|   |   |               |   |   |           |-- sim_video_0_8566_735f6780105ece55668d.mp4
+|   |   |               |   |   |           |-- sim_video_0_92566_df688c4253c44424d838.mp4
+|   |   |               |   |   |           |-- sim_video_1_100966_9660bd4721df38a468ce.mp4
+|   |   |               |   |   |           |-- sim_video_1_109366_12f3dce729831af4f80e.mp4
+|   |   |               |   |   |           |-- sim_video_1_117766_1fd6f095b367b854e4f7.mp4
+|   |   |               |   |   |           |-- sim_video_1_126166_6b0451352e792d5a09c4.mp4
+|   |   |               |   |   |           |-- sim_video_1_134566_42d890f6f0db9a2b718a.mp4
+|   |   |               |   |   |           |-- sim_video_1_142966_759aefc2dd113ff6cd7d.mp4
+|   |   |               |   |   |           |-- sim_video_1_151366_4545282a2b91562e03c7.mp4
+|   |   |               |   |   |           |-- sim_video_1_159766_f5cc36b0b52eef5153ab.mp4
+|   |   |               |   |   |           |-- sim_video_1_166_31624ac451e1ee4959e2.mp4
+|   |   |               |   |   |           |-- sim_video_1_168166_6f3bcb1c2a5f8c78976e.mp4
+|   |   |               |   |   |           |-- sim_video_1_16966_8e0bd89968ac1e5478de.mp4
+|   |   |               |   |   |           |-- sim_video_1_176566_e2cbbfb11b56db4ba4e3.mp4
+|   |   |               |   |   |           |-- sim_video_1_184966_0143a23fec1e934fd10f.mp4
+|   |   |               |   |   |           |-- sim_video_1_193366_f5f78b73e8bb7a756c38.mp4
+|   |   |               |   |   |           |-- sim_video_1_201766_3e5148c9f371c775ff7c.mp4
+|   |   |               |   |   |           |-- sim_video_1_210166_701cc71b5a2eb5f8d7ee.mp4
+|   |   |               |   |   |           |-- sim_video_1_218566_e871e95efb281c3c5183.mp4
+|   |   |               |   |   |           |-- sim_video_1_226966_423a960a33efd947834b.mp4
+|   |   |               |   |   |           |-- sim_video_1_235366_2e7d3264bf491d48ae27.mp4
+|   |   |               |   |   |           |-- sim_video_1_243766_2cd7c8ce8930116cb730.mp4
+|   |   |               |   |   |           |-- sim_video_1_252166_ca0e63ce333cc8427b97.mp4
+|   |   |               |   |   |           |-- sim_video_1_25366_3cd71c5cec9b6aa2a9ea.mp4
+|   |   |               |   |   |           |-- sim_video_1_260566_99c03bf7494732721afb.mp4
+|   |   |               |   |   |           |-- sim_video_1_268966_8d7796e976082cd8482a.mp4
+|   |   |               |   |   |           |-- sim_video_1_277366_778a0a4abed8b155868d.mp4
+|   |   |               |   |   |           |-- sim_video_1_285766_1c400ca5cef2593c0360.mp4
+|   |   |               |   |   |           |-- sim_video_1_294166_16ef8a6ef7a9da00f8fb.mp4
+|   |   |               |   |   |           |-- sim_video_1_302566_410b01186e1a9a4b0a3f.mp4
+|   |   |               |   |   |           |-- sim_video_1_310966_ebfd311d9a3cd9c23573.mp4
+|   |   |               |   |   |           |-- sim_video_1_319366_24b72ef1a74dcb54bb96.mp4
+|   |   |               |   |   |           |-- sim_video_1_327766_c6b3532cd1e31bce5e09.mp4
+|   |   |               |   |   |           |-- sim_video_1_336166_c748aa723ecd6871e57a.mp4
+|   |   |               |   |   |           |-- sim_video_1_33766_d9d08c9c3d365ee9a43a.mp4
+|   |   |               |   |   |           |-- sim_video_1_344566_eececf584d338046ac7c.mp4
+|   |   |               |   |   |           |-- sim_video_1_352966_76398655122cc496b4ca.mp4
+|   |   |               |   |   |           |-- sim_video_1_361366_d716cc67a6b5f5674cc8.mp4
+|   |   |               |   |   |           |-- sim_video_1_369766_9b4e6bff2b326bc2c5f0.mp4
+|   |   |               |   |   |           |-- sim_video_1_378166_ff86eae2376362dbb5f9.mp4
+|   |   |               |   |   |           |-- sim_video_1_386566_c50cfea8bdf79beceae4.mp4
+|   |   |               |   |   |           |-- sim_video_1_394966_cbace929c79fefadd4d3.mp4
+|   |   |               |   |   |           |-- sim_video_1_403366_3ea7587d912b06e423bf.mp4
+|   |   |               |   |   |           |-- sim_video_1_411766_932c2c42cec0126823ee.mp4
+|   |   |               |   |   |           |-- sim_video_1_420166_c4df576e30835688d778.mp4
+|   |   |               |   |   |           |-- sim_video_1_42166_b93c22c6abf50238e4e2.mp4
+|   |   |               |   |   |           |-- sim_video_1_428566_173afd14133155ec140b.mp4
+|   |   |               |   |   |           |-- sim_video_1_436966_cae196e24f57f7c63185.mp4
+|   |   |               |   |   |           |-- sim_video_1_445366_455a2331c1768a1646fa.mp4
+|   |   |               |   |   |           |-- sim_video_1_453766_22abcd331503753a4537.mp4
+|   |   |               |   |   |           |-- sim_video_1_462166_d8ef6f83fd73e050e684.mp4
+|   |   |               |   |   |           |-- sim_video_1_470566_1d18912c9ef349a2e879.mp4
+|   |   |               |   |   |           |-- sim_video_1_478966_94c519b02b7a4b8d5e33.mp4
+|   |   |               |   |   |           |-- sim_video_1_487366_bfd4e8b9ed1fc19ddf12.mp4
+|   |   |               |   |   |           |-- sim_video_1_495766_e96ac3f0fb18515ac627.mp4
+|   |   |               |   |   |           |-- sim_video_1_504166_612bea311559a3a3b50b.mp4
+|   |   |               |   |   |           |-- sim_video_1_50566_617052eef8382fa9fea0.mp4
+|   |   |               |   |   |           |-- sim_video_1_58966_28fa3d06f2d2ec14edba.mp4
+|   |   |               |   |   |           |-- sim_video_1_67366_ca703867e0cc5fa9f170.mp4
+|   |   |               |   |   |           |-- sim_video_1_75766_9c37a253619ad84d1439.mp4
+|   |   |               |   |   |           |-- sim_video_1_84166_beef3703cbd2d821d7ab.mp4
+|   |   |               |   |   |           |-- sim_video_1_8566_b0f6a6f3da6c39e58641.mp4
+|   |   |               |   |   |           `-- sim_video_1_92566_e8b8220f1d817b613de1.mp4
+|   |   |               |   |   `-- requirements.txt
+|   |   |               |   |-- logs
+|   |   |               |   |   |-- debug-core.log -> /tmp/.cache/wandb/logs/core-debug-20260926_141837.log
+|   |   |               |   |   |-- debug-internal.log
+|   |   |               |   |   `-- debug.log
+|   |   |               |   |-- run-qip62jj2.wandb
+|   |   |               |   `-- tmp
+|   |   |               |       `-- code
+|   |   |               `-- wandb-resume.json
+|   |   `-- pusht
+|   |       `-- pusht_cchi_v7_replay.zarr
+|   |           |-- data
+|   |           |   |-- action
+|   |           |   |   |-- 0.0
+|   |           |   |   |-- 1.0
+|   |           |   |   |-- 10.0
+|   |           |   |   |-- 100.0
+|   |           |   |   |-- 101.0
+|   |           |   |   |-- 102.0
+|   |           |   |   |-- 103.0
+|   |           |   |   |-- 104.0
+|   |           |   |   |-- 105.0
+|   |           |   |   |-- 106.0
+|   |           |   |   |-- 107.0
+|   |           |   |   |-- 108.0
+|   |           |   |   |-- 109.0
+|   |           |   |   |-- 11.0
+|   |           |   |   |-- 110.0
+|   |           |   |   |-- 111.0
+|   |           |   |   |-- 112.0
+|   |           |   |   |-- 113.0
+|   |           |   |   |-- 114.0
+|   |           |   |   |-- 115.0
+|   |           |   |   |-- 116.0
+|   |           |   |   |-- 117.0
+|   |           |   |   |-- 118.0
+|   |           |   |   |-- 119.0
+|   |           |   |   |-- 12.0
+|   |           |   |   |-- 120.0
+|   |           |   |   |-- 121.0
+|   |           |   |   |-- 122.0
+|   |           |   |   |-- 123.0
+|   |           |   |   |-- 124.0
+|   |           |   |   |-- 125.0
+|   |           |   |   |-- 126.0
+|   |           |   |   |-- 127.0
+|   |           |   |   |-- 128.0
+|   |           |   |   |-- 129.0
+|   |           |   |   |-- 13.0
+|   |           |   |   |-- 130.0
+|   |           |   |   |-- 131.0
+|   |           |   |   |-- 132.0
+|   |           |   |   |-- 133.0
+|   |           |   |   |-- 134.0
+|   |           |   |   |-- 135.0
+|   |           |   |   |-- 136.0
+|   |           |   |   |-- 137.0
+|   |           |   |   |-- 138.0
+|   |           |   |   |-- 139.0
+|   |           |   |   |-- 14.0
+|   |           |   |   |-- 140.0
+|   |           |   |   |-- 141.0
+|   |           |   |   |-- 142.0
+|   |           |   |   |-- 143.0
+|   |           |   |   |-- 144.0
+|   |           |   |   |-- 145.0
+|   |           |   |   |-- 146.0
+|   |           |   |   |-- 147.0
+|   |           |   |   |-- 148.0
+|   |           |   |   |-- 149.0
+|   |           |   |   |-- 15.0
+|   |           |   |   |-- 150.0
+|   |           |   |   |-- 151.0
+|   |           |   |   |-- 152.0
+|   |           |   |   |-- 153.0
+|   |           |   |   |-- 154.0
+|   |           |   |   |-- 155.0
+|   |           |   |   |-- 156.0
+|   |           |   |   |-- 157.0
+|   |           |   |   |-- 158.0
+|   |           |   |   |-- 159.0
+|   |           |   |   |-- 16.0
+|   |           |   |   |-- 17.0
+|   |           |   |   |-- 18.0
+|   |           |   |   |-- 19.0
+|   |           |   |   |-- 2.0
+|   |           |   |   |-- 20.0
+|   |           |   |   |-- 21.0
+|   |           |   |   |-- 22.0
+|   |           |   |   |-- 23.0
+|   |           |   |   |-- 24.0
+|   |           |   |   |-- 25.0
+|   |           |   |   |-- 26.0
+|   |           |   |   |-- 27.0
+|   |           |   |   |-- 28.0
+|   |           |   |   |-- 29.0
+|   |           |   |   |-- 3.0
+|   |           |   |   |-- 30.0
+|   |           |   |   |-- 31.0
+|   |           |   |   |-- 32.0
+|   |           |   |   |-- 33.0
+|   |           |   |   |-- 34.0
+|   |           |   |   |-- 35.0
+|   |           |   |   |-- 36.0
+|   |           |   |   |-- 37.0
+|   |           |   |   |-- 38.0
+|   |           |   |   |-- 39.0
+|   |           |   |   |-- 4.0
+|   |           |   |   |-- 40.0
+|   |           |   |   |-- 41.0
+|   |           |   |   |-- 42.0
+|   |           |   |   |-- 43.0
+|   |           |   |   |-- 44.0
+|   |           |   |   |-- 45.0
+|   |           |   |   |-- 46.0
+|   |           |   |   |-- 47.0
+|   |           |   |   |-- 48.0
+|   |           |   |   |-- 49.0
+|   |           |   |   |-- 5.0
+|   |           |   |   |-- 50.0
+|   |           |   |   |-- 51.0
+|   |           |   |   |-- 52.0
+|   |           |   |   |-- 53.0
+|   |           |   |   |-- 54.0
+|   |           |   |   |-- 55.0
+|   |           |   |   |-- 56.0
+|   |           |   |   |-- 57.0
+|   |           |   |   |-- 58.0
+|   |           |   |   |-- 59.0
+|   |           |   |   |-- 6.0
+|   |           |   |   |-- 60.0
+|   |           |   |   |-- 61.0
+|   |           |   |   |-- 62.0
+|   |           |   |   |-- 63.0
+|   |           |   |   |-- 64.0
+|   |           |   |   |-- 65.0
+|   |           |   |   |-- 66.0
+|   |           |   |   |-- 67.0
+|   |           |   |   |-- 68.0
+|   |           |   |   |-- 69.0
+|   |           |   |   |-- 7.0
+|   |           |   |   |-- 70.0
+|   |           |   |   |-- 71.0
+|   |           |   |   |-- 72.0
+|   |           |   |   |-- 73.0
+|   |           |   |   |-- 74.0
+|   |           |   |   |-- 75.0
+|   |           |   |   |-- 76.0
+|   |           |   |   |-- 77.0
+|   |           |   |   |-- 78.0
+|   |           |   |   |-- 79.0
+|   |           |   |   |-- 8.0
+|   |           |   |   |-- 80.0
+|   |           |   |   |-- 81.0
+|   |           |   |   |-- 82.0
+|   |           |   |   |-- 83.0
+|   |           |   |   |-- 84.0
+|   |           |   |   |-- 85.0
+|   |           |   |   |-- 86.0
+|   |           |   |   |-- 87.0
+|   |           |   |   |-- 88.0
+|   |           |   |   |-- 89.0
+|   |           |   |   |-- 9.0
+|   |           |   |   |-- 90.0
+|   |           |   |   |-- 91.0
+|   |           |   |   |-- 92.0
+|   |           |   |   |-- 93.0
+|   |           |   |   |-- 94.0
+|   |           |   |   |-- 95.0
+|   |           |   |   |-- 96.0
+|   |           |   |   |-- 97.0
+|   |           |   |   |-- 98.0
+|   |           |   |   `-- 99.0
+|   |           |   |-- img
+|   |           |   |   |-- 0.0.0.0
+|   |           |   |   |-- 1.0.0.0
+|   |           |   |   |-- 10.0.0.0
+|   |           |   |   |-- 100.0.0.0
+|   |           |   |   |-- 101.0.0.0
+|   |           |   |   |-- 102.0.0.0
+|   |           |   |   |-- 103.0.0.0
+|   |           |   |   |-- 104.0.0.0
+|   |           |   |   |-- 105.0.0.0
+|   |           |   |   |-- 106.0.0.0
+|   |           |   |   |-- 107.0.0.0
+|   |           |   |   |-- 108.0.0.0
+|   |           |   |   |-- 109.0.0.0
+|   |           |   |   |-- 11.0.0.0
+|   |           |   |   |-- 110.0.0.0
+|   |           |   |   |-- 111.0.0.0
+|   |           |   |   |-- 112.0.0.0
+|   |           |   |   |-- 113.0.0.0
+|   |           |   |   |-- 114.0.0.0
+|   |           |   |   |-- 115.0.0.0
+|   |           |   |   |-- 116.0.0.0
+|   |           |   |   |-- 117.0.0.0
+|   |           |   |   |-- 118.0.0.0
+|   |           |   |   |-- 119.0.0.0
+|   |           |   |   |-- 12.0.0.0
+|   |           |   |   |-- 120.0.0.0
+|   |           |   |   |-- 121.0.0.0
+|   |           |   |   |-- 122.0.0.0
+|   |           |   |   |-- 123.0.0.0
+|   |           |   |   |-- 124.0.0.0
+|   |           |   |   |-- 125.0.0.0
+|   |           |   |   |-- 126.0.0.0
+|   |           |   |   |-- 127.0.0.0
+|   |           |   |   |-- 128.0.0.0
+|   |           |   |   |-- 129.0.0.0
+|   |           |   |   |-- 13.0.0.0
+|   |           |   |   |-- 130.0.0.0
+|   |           |   |   |-- 131.0.0.0
+|   |           |   |   |-- 132.0.0.0
+|   |           |   |   |-- 133.0.0.0
+|   |           |   |   |-- 134.0.0.0
+|   |           |   |   |-- 135.0.0.0
+|   |           |   |   |-- 136.0.0.0
+|   |           |   |   |-- 137.0.0.0
+|   |           |   |   |-- 138.0.0.0
+|   |           |   |   |-- 139.0.0.0
+|   |           |   |   |-- 14.0.0.0
+|   |           |   |   |-- 140.0.0.0
+|   |           |   |   |-- 141.0.0.0
+|   |           |   |   |-- 142.0.0.0
+|   |           |   |   |-- 143.0.0.0
+|   |           |   |   |-- 144.0.0.0
+|   |           |   |   |-- 145.0.0.0
+|   |           |   |   |-- 146.0.0.0
+|   |           |   |   |-- 147.0.0.0
+|   |           |   |   |-- 148.0.0.0
+|   |           |   |   |-- 149.0.0.0
+|   |           |   |   |-- 15.0.0.0
+|   |           |   |   |-- 150.0.0.0
+|   |           |   |   |-- 151.0.0.0
+|   |           |   |   |-- 152.0.0.0
+|   |           |   |   |-- 153.0.0.0
+|   |           |   |   |-- 154.0.0.0
+|   |           |   |   |-- 155.0.0.0
+|   |           |   |   |-- 156.0.0.0
+|   |           |   |   |-- 157.0.0.0
+|   |           |   |   |-- 158.0.0.0
+|   |           |   |   |-- 159.0.0.0
+|   |           |   |   |-- 16.0.0.0
+|   |           |   |   |-- 17.0.0.0
+|   |           |   |   |-- 18.0.0.0
+|   |           |   |   |-- 19.0.0.0
+|   |           |   |   |-- 2.0.0.0
+|   |           |   |   |-- 20.0.0.0
+|   |           |   |   |-- 21.0.0.0
+|   |           |   |   |-- 22.0.0.0
+|   |           |   |   |-- 23.0.0.0
+|   |           |   |   |-- 24.0.0.0
+|   |           |   |   |-- 25.0.0.0
+|   |           |   |   |-- 26.0.0.0
+|   |           |   |   |-- 27.0.0.0
+|   |           |   |   |-- 28.0.0.0
+|   |           |   |   |-- 29.0.0.0
+|   |           |   |   |-- 3.0.0.0
+|   |           |   |   |-- 30.0.0.0
+|   |           |   |   |-- 31.0.0.0
+|   |           |   |   |-- 32.0.0.0
+|   |           |   |   |-- 33.0.0.0
+|   |           |   |   |-- 34.0.0.0
+|   |           |   |   |-- 35.0.0.0
+|   |           |   |   |-- 36.0.0.0
+|   |           |   |   |-- 37.0.0.0
+|   |           |   |   |-- 38.0.0.0
+|   |           |   |   |-- 39.0.0.0
+|   |           |   |   |-- 4.0.0.0
+|   |           |   |   |-- 40.0.0.0
+|   |           |   |   |-- 41.0.0.0
+|   |           |   |   |-- 42.0.0.0
+|   |           |   |   |-- 43.0.0.0
+|   |           |   |   |-- 44.0.0.0
+|   |           |   |   |-- 45.0.0.0
+|   |           |   |   |-- 46.0.0.0
+|   |           |   |   |-- 47.0.0.0
+|   |           |   |   |-- 48.0.0.0
+|   |           |   |   |-- 49.0.0.0
+|   |           |   |   |-- 5.0.0.0
+|   |           |   |   |-- 50.0.0.0
+|   |           |   |   |-- 51.0.0.0
+|   |           |   |   |-- 52.0.0.0
+|   |           |   |   |-- 53.0.0.0
+|   |           |   |   |-- 54.0.0.0
+|   |           |   |   |-- 55.0.0.0
+|   |           |   |   |-- 56.0.0.0
+|   |           |   |   |-- 57.0.0.0
+|   |           |   |   |-- 58.0.0.0
+|   |           |   |   |-- 59.0.0.0
+|   |           |   |   |-- 6.0.0.0
+|   |           |   |   |-- 60.0.0.0
+|   |           |   |   |-- 61.0.0.0
+|   |           |   |   |-- 62.0.0.0
+|   |           |   |   |-- 63.0.0.0
+|   |           |   |   |-- 64.0.0.0
+|   |           |   |   |-- 65.0.0.0
+|   |           |   |   |-- 66.0.0.0
+|   |           |   |   |-- 67.0.0.0
+|   |           |   |   |-- 68.0.0.0
+|   |           |   |   |-- 69.0.0.0
+|   |           |   |   |-- 7.0.0.0
+|   |           |   |   |-- 70.0.0.0
+|   |           |   |   |-- 71.0.0.0
+|   |           |   |   |-- 72.0.0.0
+|   |           |   |   |-- 73.0.0.0
+|   |           |   |   |-- 74.0.0.0
+|   |           |   |   |-- 75.0.0.0
+|   |           |   |   |-- 76.0.0.0
+|   |           |   |   |-- 77.0.0.0
+|   |           |   |   |-- 78.0.0.0
+|   |           |   |   |-- 79.0.0.0
+|   |           |   |   |-- 8.0.0.0
+|   |           |   |   |-- 80.0.0.0
+|   |           |   |   |-- 81.0.0.0
+|   |           |   |   |-- 82.0.0.0
+|   |           |   |   |-- 83.0.0.0
+|   |           |   |   |-- 84.0.0.0
+|   |           |   |   |-- 85.0.0.0
+|   |           |   |   |-- 86.0.0.0
+|   |           |   |   |-- 87.0.0.0
+|   |           |   |   |-- 88.0.0.0
+|   |           |   |   |-- 89.0.0.0
+|   |           |   |   |-- 9.0.0.0
+|   |           |   |   |-- 90.0.0.0
+|   |           |   |   |-- 91.0.0.0
+|   |           |   |   |-- 92.0.0.0
+|   |           |   |   |-- 93.0.0.0
+|   |           |   |   |-- 94.0.0.0
+|   |           |   |   |-- 95.0.0.0
+|   |           |   |   |-- 96.0.0.0
+|   |           |   |   |-- 97.0.0.0
+|   |           |   |   |-- 98.0.0.0
+|   |           |   |   `-- 99.0.0.0
+|   |           |   |-- keypoint
+|   |           |   |   |-- 0.0.0
+|   |           |   |   |-- 1.0.0
+|   |           |   |   |-- 10.0.0
+|   |           |   |   |-- 100.0.0
+|   |           |   |   |-- 101.0.0
+|   |           |   |   |-- 102.0.0
+|   |           |   |   |-- 103.0.0
+|   |           |   |   |-- 104.0.0
+|   |           |   |   |-- 105.0.0
+|   |           |   |   |-- 106.0.0
+|   |           |   |   |-- 107.0.0
+|   |           |   |   |-- 108.0.0
+|   |           |   |   |-- 109.0.0
+|   |           |   |   |-- 11.0.0
+|   |           |   |   |-- 110.0.0
+|   |           |   |   |-- 111.0.0
+|   |           |   |   |-- 112.0.0
+|   |           |   |   |-- 113.0.0
+|   |           |   |   |-- 114.0.0
+|   |           |   |   |-- 115.0.0
+|   |           |   |   |-- 116.0.0
+|   |           |   |   |-- 117.0.0
+|   |           |   |   |-- 118.0.0
+|   |           |   |   |-- 119.0.0
+|   |           |   |   |-- 12.0.0
+|   |           |   |   |-- 120.0.0
+|   |           |   |   |-- 121.0.0
+|   |           |   |   |-- 122.0.0
+|   |           |   |   |-- 123.0.0
+|   |           |   |   |-- 124.0.0
+|   |           |   |   |-- 125.0.0
+|   |           |   |   |-- 126.0.0
+|   |           |   |   |-- 127.0.0
+|   |           |   |   |-- 128.0.0
+|   |           |   |   |-- 129.0.0
+|   |           |   |   |-- 13.0.0
+|   |           |   |   |-- 130.0.0
+|   |           |   |   |-- 131.0.0
+|   |           |   |   |-- 132.0.0
+|   |           |   |   |-- 133.0.0
+|   |           |   |   |-- 134.0.0
+|   |           |   |   |-- 135.0.0
+|   |           |   |   |-- 136.0.0
+|   |           |   |   |-- 137.0.0
+|   |           |   |   |-- 138.0.0
+|   |           |   |   |-- 139.0.0
+|   |           |   |   |-- 14.0.0
+|   |           |   |   |-- 140.0.0
+|   |           |   |   |-- 141.0.0
+|   |           |   |   |-- 142.0.0
+|   |           |   |   |-- 143.0.0
+|   |           |   |   |-- 144.0.0
+|   |           |   |   |-- 145.0.0
+|   |           |   |   |-- 146.0.0
+|   |           |   |   |-- 147.0.0
+|   |           |   |   |-- 148.0.0
+|   |           |   |   |-- 149.0.0
+|   |           |   |   |-- 15.0.0
+|   |           |   |   |-- 150.0.0
+|   |           |   |   |-- 151.0.0
+|   |           |   |   |-- 152.0.0
+|   |           |   |   |-- 153.0.0
+|   |           |   |   |-- 154.0.0
+|   |           |   |   |-- 155.0.0
+|   |           |   |   |-- 156.0.0
+|   |           |   |   |-- 157.0.0
+|   |           |   |   |-- 158.0.0
+|   |           |   |   |-- 159.0.0
+|   |           |   |   |-- 16.0.0
+|   |           |   |   |-- 17.0.0
+|   |           |   |   |-- 18.0.0
+|   |           |   |   |-- 19.0.0
+|   |           |   |   |-- 2.0.0
+|   |           |   |   |-- 20.0.0
+|   |           |   |   |-- 21.0.0
+|   |           |   |   |-- 22.0.0
+|   |           |   |   |-- 23.0.0
+|   |           |   |   |-- 24.0.0
+|   |           |   |   |-- 25.0.0
+|   |           |   |   |-- 26.0.0
+|   |           |   |   |-- 27.0.0
+|   |           |   |   |-- 28.0.0
+|   |           |   |   |-- 29.0.0
+|   |           |   |   |-- 3.0.0
+|   |           |   |   |-- 30.0.0
+|   |           |   |   |-- 31.0.0
+|   |           |   |   |-- 32.0.0
+|   |           |   |   |-- 33.0.0
+|   |           |   |   |-- 34.0.0
+|   |           |   |   |-- 35.0.0
+|   |           |   |   |-- 36.0.0
+|   |           |   |   |-- 37.0.0
+|   |           |   |   |-- 38.0.0
+|   |           |   |   |-- 39.0.0
+|   |           |   |   |-- 4.0.0
+|   |           |   |   |-- 40.0.0
+|   |           |   |   |-- 41.0.0
+|   |           |   |   |-- 42.0.0
+|   |           |   |   |-- 43.0.0
+|   |           |   |   |-- 44.0.0
+|   |           |   |   |-- 45.0.0
+|   |           |   |   |-- 46.0.0
+|   |           |   |   |-- 47.0.0
+|   |           |   |   |-- 48.0.0
+|   |           |   |   |-- 49.0.0
+|   |           |   |   |-- 5.0.0
+|   |           |   |   |-- 50.0.0
+|   |           |   |   |-- 51.0.0
+|   |           |   |   |-- 52.0.0
+|   |           |   |   |-- 53.0.0
+|   |           |   |   |-- 54.0.0
+|   |           |   |   |-- 55.0.0
+|   |           |   |   |-- 56.0.0
+|   |           |   |   |-- 57.0.0
+|   |           |   |   |-- 58.0.0
+|   |           |   |   |-- 59.0.0
+|   |           |   |   |-- 6.0.0
+|   |           |   |   |-- 60.0.0
+|   |           |   |   |-- 61.0.0
+|   |           |   |   |-- 62.0.0
+|   |           |   |   |-- 63.0.0
+|   |           |   |   |-- 64.0.0
+|   |           |   |   |-- 65.0.0
+|   |           |   |   |-- 66.0.0
+|   |           |   |   |-- 67.0.0
+|   |           |   |   |-- 68.0.0
+|   |           |   |   |-- 69.0.0
+|   |           |   |   |-- 7.0.0
+|   |           |   |   |-- 70.0.0
+|   |           |   |   |-- 71.0.0
+|   |           |   |   |-- 72.0.0
+|   |           |   |   |-- 73.0.0
+|   |           |   |   |-- 74.0.0
+|   |           |   |   |-- 75.0.0
+|   |           |   |   |-- 76.0.0
+|   |           |   |   |-- 77.0.0
+|   |           |   |   |-- 78.0.0
+|   |           |   |   |-- 79.0.0
+|   |           |   |   |-- 8.0.0
+|   |           |   |   |-- 80.0.0
+|   |           |   |   |-- 81.0.0
+|   |           |   |   |-- 82.0.0
+|   |           |   |   |-- 83.0.0
+|   |           |   |   |-- 84.0.0
+|   |           |   |   |-- 85.0.0
+|   |           |   |   |-- 86.0.0
+|   |           |   |   |-- 87.0.0
+|   |           |   |   |-- 88.0.0
+|   |           |   |   |-- 89.0.0
+|   |           |   |   |-- 9.0.0
+|   |           |   |   |-- 90.0.0
+|   |           |   |   |-- 91.0.0
+|   |           |   |   |-- 92.0.0
+|   |           |   |   |-- 93.0.0
+|   |           |   |   |-- 94.0.0
+|   |           |   |   |-- 95.0.0
+|   |           |   |   |-- 96.0.0
+|   |           |   |   |-- 97.0.0
+|   |           |   |   |-- 98.0.0
+|   |           |   |   `-- 99.0.0
+|   |           |   |-- n_contacts
+|   |           |   |   |-- 0.0
+|   |           |   |   |-- 1.0
+|   |           |   |   |-- 10.0
+|   |           |   |   |-- 100.0
+|   |           |   |   |-- 101.0
+|   |           |   |   |-- 102.0
+|   |           |   |   |-- 103.0
+|   |           |   |   |-- 104.0
+|   |           |   |   |-- 105.0
+|   |           |   |   |-- 106.0
+|   |           |   |   |-- 107.0
+|   |           |   |   |-- 108.0
+|   |           |   |   |-- 109.0
+|   |           |   |   |-- 11.0
+|   |           |   |   |-- 110.0
+|   |           |   |   |-- 111.0
+|   |           |   |   |-- 112.0
+|   |           |   |   |-- 113.0
+|   |           |   |   |-- 114.0
+|   |           |   |   |-- 115.0
+|   |           |   |   |-- 116.0
+|   |           |   |   |-- 117.0
+|   |           |   |   |-- 118.0
+|   |           |   |   |-- 119.0
+|   |           |   |   |-- 12.0
+|   |           |   |   |-- 120.0
+|   |           |   |   |-- 121.0
+|   |           |   |   |-- 122.0
+|   |           |   |   |-- 123.0
+|   |           |   |   |-- 124.0
+|   |           |   |   |-- 125.0
+|   |           |   |   |-- 126.0
+|   |           |   |   |-- 127.0
+|   |           |   |   |-- 128.0
+|   |           |   |   |-- 129.0
+|   |           |   |   |-- 13.0
+|   |           |   |   |-- 130.0
+|   |           |   |   |-- 131.0
+|   |           |   |   |-- 132.0
+|   |           |   |   |-- 133.0
+|   |           |   |   |-- 134.0
+|   |           |   |   |-- 135.0
+|   |           |   |   |-- 136.0
+|   |           |   |   |-- 137.0
+|   |           |   |   |-- 138.0
+|   |           |   |   |-- 139.0
+|   |           |   |   |-- 14.0
+|   |           |   |   |-- 140.0
+|   |           |   |   |-- 141.0
+|   |           |   |   |-- 142.0
+|   |           |   |   |-- 143.0
+|   |           |   |   |-- 144.0
+|   |           |   |   |-- 145.0
+|   |           |   |   |-- 146.0
+|   |           |   |   |-- 147.0
+|   |           |   |   |-- 148.0
+|   |           |   |   |-- 149.0
+|   |           |   |   |-- 15.0
+|   |           |   |   |-- 150.0
+|   |           |   |   |-- 151.0
+|   |           |   |   |-- 152.0
+|   |           |   |   |-- 153.0
+|   |           |   |   |-- 154.0
+|   |           |   |   |-- 155.0
+|   |           |   |   |-- 156.0
+|   |           |   |   |-- 157.0
+|   |           |   |   |-- 158.0
+|   |           |   |   |-- 159.0
+|   |           |   |   |-- 16.0
+|   |           |   |   |-- 17.0
+|   |           |   |   |-- 18.0
+|   |           |   |   |-- 19.0
+|   |           |   |   |-- 2.0
+|   |           |   |   |-- 20.0
+|   |           |   |   |-- 21.0
+|   |           |   |   |-- 22.0
+|   |           |   |   |-- 23.0
+|   |           |   |   |-- 24.0
+|   |           |   |   |-- 25.0
+|   |           |   |   |-- 26.0
+|   |           |   |   |-- 27.0
+|   |           |   |   |-- 28.0
+|   |           |   |   |-- 29.0
+|   |           |   |   |-- 3.0
+|   |           |   |   |-- 30.0
+|   |           |   |   |-- 31.0
+|   |           |   |   |-- 32.0
+|   |           |   |   |-- 33.0
+|   |           |   |   |-- 34.0
+|   |           |   |   |-- 35.0
+|   |           |   |   |-- 36.0
+|   |           |   |   |-- 37.0
+|   |           |   |   |-- 38.0
+|   |           |   |   |-- 39.0
+|   |           |   |   |-- 4.0
+|   |           |   |   |-- 40.0
+|   |           |   |   |-- 41.0
+|   |           |   |   |-- 42.0
+|   |           |   |   |-- 43.0
+|   |           |   |   |-- 44.0
+|   |           |   |   |-- 45.0
+|   |           |   |   |-- 46.0
+|   |           |   |   |-- 47.0
+|   |           |   |   |-- 48.0
+|   |           |   |   |-- 49.0
+|   |           |   |   |-- 5.0
+|   |           |   |   |-- 50.0
+|   |           |   |   |-- 51.0
+|   |           |   |   |-- 52.0
+|   |           |   |   |-- 53.0
+|   |           |   |   |-- 54.0
+|   |           |   |   |-- 55.0
+|   |           |   |   |-- 56.0
+|   |           |   |   |-- 57.0
+|   |           |   |   |-- 58.0
+|   |           |   |   |-- 59.0
+|   |           |   |   |-- 6.0
+|   |           |   |   |-- 60.0
+|   |           |   |   |-- 61.0
+|   |           |   |   |-- 62.0
+|   |           |   |   |-- 63.0
+|   |           |   |   |-- 64.0
+|   |           |   |   |-- 65.0
+|   |           |   |   |-- 66.0
+|   |           |   |   |-- 67.0
+|   |           |   |   |-- 68.0
+|   |           |   |   |-- 69.0
+|   |           |   |   |-- 7.0
+|   |           |   |   |-- 70.0
+|   |           |   |   |-- 71.0
+|   |           |   |   |-- 72.0
+|   |           |   |   |-- 73.0
+|   |           |   |   |-- 74.0
+|   |           |   |   |-- 75.0
+|   |           |   |   |-- 76.0
+|   |           |   |   |-- 77.0
+|   |           |   |   |-- 78.0
+|   |           |   |   |-- 79.0
+|   |           |   |   |-- 8.0
+|   |           |   |   |-- 80.0
+|   |           |   |   |-- 81.0
+|   |           |   |   |-- 82.0
+|   |           |   |   |-- 83.0
+|   |           |   |   |-- 84.0
+|   |           |   |   |-- 85.0
+|   |           |   |   |-- 86.0
+|   |           |   |   |-- 87.0
+|   |           |   |   |-- 88.0
+|   |           |   |   |-- 89.0
+|   |           |   |   |-- 9.0
+|   |           |   |   |-- 90.0
+|   |           |   |   |-- 91.0
+|   |           |   |   |-- 92.0
+|   |           |   |   |-- 93.0
+|   |           |   |   |-- 94.0
+|   |           |   |   |-- 95.0
+|   |           |   |   |-- 96.0
+|   |           |   |   |-- 97.0
+|   |           |   |   |-- 98.0
+|   |           |   |   `-- 99.0
+|   |           |   `-- state
+|   |           |       |-- 0.0
+|   |           |       |-- 1.0
+|   |           |       |-- 10.0
+|   |           |       |-- 100.0
+|   |           |       |-- 101.0
+|   |           |       |-- 102.0
+|   |           |       |-- 103.0
+|   |           |       |-- 104.0
+|   |           |       |-- 105.0
+|   |           |       |-- 106.0
+|   |           |       |-- 107.0
+|   |           |       |-- 108.0
+|   |           |       |-- 109.0
+|   |           |       |-- 11.0
+|   |           |       |-- 110.0
+|   |           |       |-- 111.0
+|   |           |       |-- 112.0
+|   |           |       |-- 113.0
+|   |           |       |-- 114.0
+|   |           |       |-- 115.0
+|   |           |       |-- 116.0
+|   |           |       |-- 117.0
+|   |           |       |-- 118.0
+|   |           |       |-- 119.0
+|   |           |       |-- 12.0
+|   |           |       |-- 120.0
+|   |           |       |-- 121.0
+|   |           |       |-- 122.0
+|   |           |       |-- 123.0
+|   |           |       |-- 124.0
+|   |           |       |-- 125.0
+|   |           |       |-- 126.0
+|   |           |       |-- 127.0
+|   |           |       |-- 128.0
+|   |           |       |-- 129.0
+|   |           |       |-- 13.0
+|   |           |       |-- 130.0
+|   |           |       |-- 131.0
+|   |           |       |-- 132.0
+|   |           |       |-- 133.0
+|   |           |       |-- 134.0
+|   |           |       |-- 135.0
+|   |           |       |-- 136.0
+|   |           |       |-- 137.0
+|   |           |       |-- 138.0
+|   |           |       |-- 139.0
+|   |           |       |-- 14.0
+|   |           |       |-- 140.0
+|   |           |       |-- 141.0
+|   |           |       |-- 142.0
+|   |           |       |-- 143.0
+|   |           |       |-- 144.0
+|   |           |       |-- 145.0
+|   |           |       |-- 146.0
+|   |           |       |-- 147.0
+|   |           |       |-- 148.0
+|   |           |       |-- 149.0
+|   |           |       |-- 15.0
+|   |           |       |-- 150.0
+|   |           |       |-- 151.0
+|   |           |       |-- 152.0
+|   |           |       |-- 153.0
+|   |           |       |-- 154.0
+|   |           |       |-- 155.0
+|   |           |       |-- 156.0
+|   |           |       |-- 157.0
+|   |           |       |-- 158.0
+|   |           |       |-- 159.0
+|   |           |       |-- 16.0
+|   |           |       |-- 17.0
+|   |           |       |-- 18.0
+|   |           |       |-- 19.0
+|   |           |       |-- 2.0
+|   |           |       |-- 20.0
+|   |           |       |-- 21.0
+|   |           |       |-- 22.0
+|   |           |       |-- 23.0
+|   |           |       |-- 24.0
+|   |           |       |-- 25.0
+|   |           |       |-- 26.0
+|   |           |       |-- 27.0
+|   |           |       |-- 28.0
+|   |           |       |-- 29.0
+|   |           |       |-- 3.0
+|   |           |       |-- 30.0
+|   |           |       |-- 31.0
+|   |           |       |-- 32.0
+|   |           |       |-- 33.0
+|   |           |       |-- 34.0
+|   |           |       |-- 35.0
+|   |           |       |-- 36.0
+|   |           |       |-- 37.0
+|   |           |       |-- 38.0
+|   |           |       |-- 39.0
+|   |           |       |-- 4.0
+|   |           |       |-- 40.0
+|   |           |       |-- 41.0
+|   |           |       |-- 42.0
+|   |           |       |-- 43.0
+|   |           |       |-- 44.0
+|   |           |       |-- 45.0
+|   |           |       |-- 46.0
+|   |           |       |-- 47.0
+|   |           |       |-- 48.0
+|   |           |       |-- 49.0
+|   |           |       |-- 5.0
+|   |           |       |-- 50.0
+|   |           |       |-- 51.0
+|   |           |       |-- 52.0
+|   |           |       |-- 53.0
+|   |           |       |-- 54.0
+|   |           |       |-- 55.0
+|   |           |       |-- 56.0
+|   |           |       |-- 57.0
+|   |           |       |-- 58.0
+|   |           |       |-- 59.0
+|   |           |       |-- 6.0
+|   |           |       |-- 60.0
+|   |           |       |-- 61.0
+|   |           |       |-- 62.0
+|   |           |       |-- 63.0
+|   |           |       |-- 64.0
+|   |           |       |-- 65.0
+|   |           |       |-- 66.0
+|   |           |       |-- 67.0
+|   |           |       |-- 68.0
+|   |           |       |-- 69.0
+|   |           |       |-- 7.0
+|   |           |       |-- 70.0
+|   |           |       |-- 71.0
+|   |           |       |-- 72.0
+|   |           |       |-- 73.0
+|   |           |       |-- 74.0
+|   |           |       |-- 75.0
+|   |           |       |-- 76.0
+|   |           |       |-- 77.0
+|   |           |       |-- 78.0
+|   |           |       |-- 79.0
+|   |           |       |-- 8.0
+|   |           |       |-- 80.0
+|   |           |       |-- 81.0
+|   |           |       |-- 82.0
+|   |           |       |-- 83.0
+|   |           |       |-- 84.0
+|   |           |       |-- 85.0
+|   |           |       |-- 86.0
+|   |           |       |-- 87.0
+|   |           |       |-- 88.0
+|   |           |       |-- 89.0
+|   |           |       |-- 9.0
+|   |           |       |-- 90.0
+|   |           |       |-- 91.0
+|   |           |       |-- 92.0
+|   |           |       |-- 93.0
+|   |           |       |-- 94.0
+|   |           |       |-- 95.0
+|   |           |       |-- 96.0
+|   |           |       |-- 97.0
+|   |           |       |-- 98.0
+|   |           |       `-- 99.0
+|   |           `-- meta
+|   |               `-- episode_ends
+|   |                   `-- 0
+|   |-- demo_pusht.py
+|   |-- demo_real_robot.py
+|   |-- diffusion_policy
+|   |   |-- codecs
+|   |   |   `-- imagecodecs_numcodecs.py
+|   |   |-- common
+|   |   |   |-- checkpoint_util.py
+|   |   |   |-- cv2_util.py
+|   |   |   |-- env_util.py
+|   |   |   |-- json_logger.py
+|   |   |   |-- nested_dict_util.py
+|   |   |   |-- normalize_util.py
+|   |   |   |-- pose_trajectory_interpolator.py
+|   |   |   |-- precise_sleep.py
+|   |   |   |-- __pycache__
+|   |   |   |   |-- checkpoint_util.cpython-39.pyc
+|   |   |   |   |-- json_logger.cpython-39.pyc
+|   |   |   |   |-- pytorch_util.cpython-39.pyc
+|   |   |   |   |-- robomimic_config_util.cpython-39.pyc
+|   |   |   |   `-- timestamp_accumulator.cpython-39.pyc
+|   |   |   |-- pymunk_override.py
+|   |   |   |-- pymunk_util.py
+|   |   |   |-- pytorch_util.py
+|   |   |   |-- replay_buffer.py
+|   |   |   |-- robomimic_config_util.py
+|   |   |   |-- robomimic_util.py
+|   |   |   |-- sampler.py
+|   |   |   `-- timestamp_accumulator.py
+|   |   |-- config
+|   |   |   |-- task
+|   |   |   |   |-- blockpush_lowdim_seed_abs.yaml
+|   |   |   |   |-- blockpush_lowdim_seed.yaml
+|   |   |   |   |-- can_image_abs.yaml
+|   |   |   |   |-- can_image.yaml
+|   |   |   |   |-- can_lowdim_abs.yaml
+|   |   |   |   |-- can_lowdim.yaml
+|   |   |   |   |-- kitchen_lowdim_abs.yaml
+|   |   |   |   |-- kitchen_lowdim.yaml
+|   |   |   |   |-- lift_image_abs.yaml
+|   |   |   |   |-- lift_image.yaml
+|   |   |   |   |-- lift_lowdim_abs.yaml
+|   |   |   |   |-- lift_lowdim.yaml
+|   |   |   |   |-- pusht_image.yaml
+|   |   |   |   |-- pusht_lowdim.yaml
+|   |   |   |   |-- real_pusht_image.yaml
+|   |   |   |   |-- square_image_abs.yaml
+|   |   |   |   |-- square_image.yaml
+|   |   |   |   |-- square_lowdim_abs.yaml
+|   |   |   |   |-- square_lowdim.yaml
+|   |   |   |   |-- tool_hang_image_abs.yaml
+|   |   |   |   |-- tool_hang_image.yaml
+|   |   |   |   |-- tool_hang_lowdim_abs.yaml
+|   |   |   |   |-- tool_hang_lowdim.yaml
+|   |   |   |   |-- transport_image_abs.yaml
+|   |   |   |   |-- transport_image.yaml
+|   |   |   |   |-- transport_lowdim_abs.yaml
+|   |   |   |   `-- transport_lowdim.yaml
+|   |   |   |-- train_bet_lowdim_workspace.yaml
+|   |   |   |-- train_diffusion_transformer_hybrid_workspace.yaml
+|   |   |   |-- train_diffusion_transformer_lowdim_kitchen_workspace.yaml
+|   |   |   |-- train_diffusion_transformer_lowdim_pusht_workspace.yaml
+|   |   |   |-- train_diffusion_transformer_lowdim_workspace.yaml
+|   |   |   |-- train_diffusion_transformer_real_hybrid_workspace.yaml
+|   |   |   |-- train_diffusion_unet_ddim_hybrid_workspace.yaml
+|   |   |   |-- train_diffusion_unet_ddim_lowdim_workspace.yaml
+|   |   |   |-- train_diffusion_unet_hybrid_workspace.yaml
+|   |   |   |-- train_diffusion_unet_image_pretrained_workspace.yaml
+|   |   |   |-- train_diffusion_unet_image_workspace.yaml
+|   |   |   |-- train_diffusion_unet_lowdim_workspace.yaml
+|   |   |   |-- train_diffusion_unet_real_hybrid_workspace.yaml
+|   |   |   |-- train_diffusion_unet_real_image_workspace.yaml
+|   |   |   |-- train_diffusion_unet_real_pretrained_workspace.yaml
+|   |   |   |-- train_diffusion_unet_video_workspace.yaml
+|   |   |   |-- train_ibc_dfo_hybrid_workspace.yaml
+|   |   |   |-- train_ibc_dfo_lowdim_workspace.yaml
+|   |   |   |-- train_ibc_dfo_real_hybrid_workspace.yaml
+|   |   |   |-- train_robomimic_image_workspace.yaml
+|   |   |   |-- train_robomimic_lowdim_workspace.yaml
+|   |   |   `-- train_robomimic_real_image_workspace.yaml
+|   |   |-- dataset
+|   |   |   |-- base_dataset.py
+|   |   |   |-- blockpush_lowdim_dataset.py
+|   |   |   |-- kitchen_lowdim_dataset.py
+|   |   |   |-- kitchen_mjl_lowdim_dataset.py
+|   |   |   |-- mujoco_image_dataset.py
+|   |   |   |-- pusht_dataset.py
+|   |   |   |-- pusht_image_dataset.py
+|   |   |   |-- __pycache__
+|   |   |   |   `-- base_dataset.cpython-39.pyc
+|   |   |   |-- real_pusht_image_dataset.py
+|   |   |   |-- robomimic_replay_image_dataset.py
+|   |   |   `-- robomimic_replay_lowdim_dataset.py
+|   |   |-- env
+|   |   |   |-- block_pushing
+|   |   |   |   |-- assets
+|   |   |   |   |   |-- block2.urdf
+|   |   |   |   |   |-- blocks
+|   |   |   |   |   |   |-- blue_cube.urdf
+|   |   |   |   |   |   |-- cube.obj
+|   |   |   |   |   |   |-- green_star.urdf
+|   |   |   |   |   |   |-- moon.obj
+|   |   |   |   |   |   |-- pentagon.obj
+|   |   |   |   |   |   |-- red_moon.urdf
+|   |   |   |   |   |   |-- star.obj
+|   |   |   |   |   |   `-- yellow_pentagon.urdf
+|   |   |   |   |   |-- block.urdf
+|   |   |   |   |   |-- insert.urdf
+|   |   |   |   |   |-- plane.obj
+|   |   |   |   |   |-- suction
+|   |   |   |   |   |   |-- base.obj
+|   |   |   |   |   |   |-- cylinder_real.urdf
+|   |   |   |   |   |   |-- cylinder.urdf
+|   |   |   |   |   |   |-- head.obj
+|   |   |   |   |   |   |-- mid.obj
+|   |   |   |   |   |   |-- suction-base.urdf
+|   |   |   |   |   |   |-- suction-head-long.urdf
+|   |   |   |   |   |   |-- suction-head.urdf
+|   |   |   |   |   |   `-- tip.obj
+|   |   |   |   |   |-- workspace_real.urdf
+|   |   |   |   |   |-- workspace.urdf
+|   |   |   |   |   |-- zone2.urdf
+|   |   |   |   |   |-- zone.obj
+|   |   |   |   |   `-- zone.urdf
+|   |   |   |   |-- block_pushing_discontinuous.py
+|   |   |   |   |-- block_pushing_multimodal.py
+|   |   |   |   |-- block_pushing.py
+|   |   |   |   |-- oracles
+|   |   |   |   |   |-- discontinuous_push_oracle.py
+|   |   |   |   |   |-- multimodal_push_oracle.py
+|   |   |   |   |   |-- oriented_push_oracle.py
+|   |   |   |   |   |-- pushing_info.py
+|   |   |   |   |   `-- reach_oracle.py
+|   |   |   |   `-- utils
+|   |   |   |       |-- pose3d.py
+|   |   |   |       |-- utils_pybullet.py
+|   |   |   |       `-- xarm_sim_robot.py
+|   |   |   |-- kitchen
+|   |   |   |   |-- base.py
+|   |   |   |   |-- __init__.py
+|   |   |   |   |-- kitchen_lowdim_wrapper.py
+|   |   |   |   |-- kitchen_util.py
+|   |   |   |   |-- relay_policy_learning
+|   |   |   |   |   |-- adept_envs
+|   |   |   |   |   |   `-- adept_envs
+|   |   |   |   |   |       |-- base_robot.py
+|   |   |   |   |   |       |-- franka
+|   |   |   |   |   |       |   |-- assets
+|   |   |   |   |   |       |   |   `-- franka_kitchen_jntpos_act_ab.xml
+|   |   |   |   |   |       |   |-- __init__.py
+|   |   |   |   |   |       |   |-- kitchen_multitask_v0.py
+|   |   |   |   |   |       |   `-- robot
+|   |   |   |   |   |       |       |-- franka_config.xml
+|   |   |   |   |   |       |       `-- franka_robot.py
+|   |   |   |   |   |       |-- __init__.py
+|   |   |   |   |   |       |-- mujoco_env.py
+|   |   |   |   |   |       |-- robot_env.py
+|   |   |   |   |   |       |-- simulation
+|   |   |   |   |   |       |   |-- module.py
+|   |   |   |   |   |       |   |-- renderer.py
+|   |   |   |   |   |       |   `-- sim_robot.py
+|   |   |   |   |   |       `-- utils
+|   |   |   |   |   |           |-- config.py
+|   |   |   |   |   |           |-- configurable.py
+|   |   |   |   |   |           |-- constants.py
+|   |   |   |   |   |           |-- parse_demos.py
+|   |   |   |   |   |           `-- quatmath.py
+|   |   |   |   |   |-- adept_models
+|   |   |   |   |   |   |-- CONTRIBUTING.public.md
+|   |   |   |   |   |   |-- __init__.py
+|   |   |   |   |   |   |-- kitchen
+|   |   |   |   |   |   |   |-- assets
+|   |   |   |   |   |   |   |   |-- backwall_asset.xml
+|   |   |   |   |   |   |   |   |-- backwall_chain.xml
+|   |   |   |   |   |   |   |   |-- counters_asset.xml
+|   |   |   |   |   |   |   |   |-- counters_chain.xml
+|   |   |   |   |   |   |   |   |-- hingecabinet_asset.xml
+|   |   |   |   |   |   |   |   |-- hingecabinet_chain.xml
+|   |   |   |   |   |   |   |   |-- kettle_asset.xml
+|   |   |   |   |   |   |   |   |-- kettle_chain.xml
+|   |   |   |   |   |   |   |   |-- microwave_asset.xml
+|   |   |   |   |   |   |   |   |-- microwave_chain.xml
+|   |   |   |   |   |   |   |   |-- oven_asset.xml
+|   |   |   |   |   |   |   |   |-- oven_chain.xml
+|   |   |   |   |   |   |   |   |-- slidecabinet_asset.xml
+|   |   |   |   |   |   |   |   `-- slidecabinet_chain.xml
+|   |   |   |   |   |   |   |-- counters.xml
+|   |   |   |   |   |   |   |-- hingecabinet.xml
+|   |   |   |   |   |   |   |-- kettle.xml
+|   |   |   |   |   |   |   |-- kitchen.xml
+|   |   |   |   |   |   |   |-- meshes
+|   |   |   |   |   |   |   |   |-- burnerplate_mesh.stl
+|   |   |   |   |   |   |   |   |-- burnerplate.stl
+|   |   |   |   |   |   |   |   |-- cabinetbase.stl
+|   |   |   |   |   |   |   |   |-- cabinetdrawer.stl
+|   |   |   |   |   |   |   |   |-- cabinethandle.stl
+|   |   |   |   |   |   |   |   |-- countertop.stl
+|   |   |   |   |   |   |   |   |-- faucet.stl
+|   |   |   |   |   |   |   |   |-- handle2.stl
+|   |   |   |   |   |   |   |   |-- hingecabinet.stl
+|   |   |   |   |   |   |   |   |-- hingedoor.stl
+|   |   |   |   |   |   |   |   |-- hingehandle.stl
+|   |   |   |   |   |   |   |   |-- hood.stl
+|   |   |   |   |   |   |   |   |-- kettlehandle.stl
+|   |   |   |   |   |   |   |   |-- kettle.stl
+|   |   |   |   |   |   |   |   |-- knob.stl
+|   |   |   |   |   |   |   |   |-- lightswitchbase.stl
+|   |   |   |   |   |   |   |   |-- lightswitch.stl
+|   |   |   |   |   |   |   |   |-- microbutton.stl
+|   |   |   |   |   |   |   |   |-- microdoor.stl
+|   |   |   |   |   |   |   |   |-- microefeet.stl
+|   |   |   |   |   |   |   |   |-- microfeet.stl
+|   |   |   |   |   |   |   |   |-- microhandle.stl
+|   |   |   |   |   |   |   |   |-- micro.stl
+|   |   |   |   |   |   |   |   |-- microwindow.stl
+|   |   |   |   |   |   |   |   |-- ovenhandle.stl
+|   |   |   |   |   |   |   |   |-- oven.stl
+|   |   |   |   |   |   |   |   |-- oventop.stl
+|   |   |   |   |   |   |   |   |-- ovenwindow.stl
+|   |   |   |   |   |   |   |   |-- slidecabinet.stl
+|   |   |   |   |   |   |   |   |-- slidedoor.stl
+|   |   |   |   |   |   |   |   |-- stoverim.stl
+|   |   |   |   |   |   |   |   |-- tile.stl
+|   |   |   |   |   |   |   |   `-- wall.stl
+|   |   |   |   |   |   |   |-- microwave.xml
+|   |   |   |   |   |   |   |-- oven.xml
+|   |   |   |   |   |   |   |-- slidecabinet.xml
+|   |   |   |   |   |   |   `-- textures
+|   |   |   |   |   |   |       |-- marble1.png
+|   |   |   |   |   |   |       |-- metal1.png
+|   |   |   |   |   |   |       |-- tile1.png
+|   |   |   |   |   |   |       `-- wood1.png
+|   |   |   |   |   |   |-- LICENSE
+|   |   |   |   |   |   |-- README.public.md
+|   |   |   |   |   |   `-- scenes
+|   |   |   |   |   |       |-- basic_scene.xml
+|   |   |   |   |   |       `-- textures
+|   |   |   |   |   |           |-- white_marble_tile2.png
+|   |   |   |   |   |           `-- white_marble_tile.png
+|   |   |   |   |   `-- third_party
+|   |   |   |   |       `-- franka
+|   |   |   |   |           |-- assets
+|   |   |   |   |           |   |-- actuator0.xml
+|   |   |   |   |           |   |-- actuator1.xml
+|   |   |   |   |           |   |-- assets.xml
+|   |   |   |   |           |   |-- basic_scene.xml
+|   |   |   |   |           |   |-- chain0_overlay.xml
+|   |   |   |   |           |   |-- chain0.xml
+|   |   |   |   |           |   |-- chain1.xml
+|   |   |   |   |           |   `-- teleop_actuator.xml
+|   |   |   |   |           |-- bi-franka_panda.xml
+|   |   |   |   |           |-- franka_panda.png
+|   |   |   |   |           |-- franka_panda_teleop.xml
+|   |   |   |   |           |-- franka_panda.xml
+|   |   |   |   |           |-- LICENSE
+|   |   |   |   |           |-- meshes
+|   |   |   |   |           |   |-- collision
+|   |   |   |   |           |   |   |-- finger.stl
+|   |   |   |   |           |   |   |-- hand.stl
+|   |   |   |   |           |   |   |-- link0.stl
+|   |   |   |   |           |   |   |-- link1.stl
+|   |   |   |   |           |   |   |-- link2.stl
+|   |   |   |   |           |   |   |-- link3.stl
+|   |   |   |   |           |   |   |-- link4.stl
+|   |   |   |   |           |   |   |-- link5.stl
+|   |   |   |   |           |   |   |-- link6.stl
+|   |   |   |   |           |   |   `-- link7.stl
+|   |   |   |   |           |   `-- visual
+|   |   |   |   |           |       |-- finger.stl
+|   |   |   |   |           |       |-- hand.stl
+|   |   |   |   |           |       |-- link0.stl
+|   |   |   |   |           |       |-- link1.stl
+|   |   |   |   |           |       |-- link2.stl
+|   |   |   |   |           |       |-- link3.stl
+|   |   |   |   |           |       |-- link4.stl
+|   |   |   |   |           |       |-- link5.stl
+|   |   |   |   |           |       |-- link6.stl
+|   |   |   |   |           |       `-- link7.stl
+|   |   |   |   |           `-- README.md
+|   |   |   |   `-- v0.py
+|   |   |   |-- pusht
+|   |   |   |   |-- __init__.py
+|   |   |   |   |-- pusht_env.py
+|   |   |   |   |-- pusht_image_env.py
+|   |   |   |   |-- pusht_keypoints_env.py
+|   |   |   |   |-- __pycache__
+|   |   |   |   |   |-- __init__.cpython-39.pyc
+|   |   |   |   |   |-- pusht_env.cpython-39.pyc
+|   |   |   |   |   |-- pusht_image_env.cpython-39.pyc
+|   |   |   |   |   `-- pymunk_override.cpython-39.pyc
+|   |   |   |   |-- pymunk_keypoint_manager.py
+|   |   |   |   `-- pymunk_override.py
+|   |   |   `-- robomimic
+|   |   |       |-- robomimic_image_wrapper.py
+|   |   |       `-- robomimic_lowdim_wrapper.py
+|   |   |-- env_runner
+|   |   |   |-- base_image_runner.py
+|   |   |   |-- base_lowdim_runner.py
+|   |   |   |-- blockpush_lowdim_runner.py
+|   |   |   |-- kitchen_lowdim_runner.py
+|   |   |   |-- pusht_image_runner.py
+|   |   |   |-- pusht_keypoints_runner.py
+|   |   |   |-- __pycache__
+|   |   |   |   |-- base_image_runner.cpython-39.pyc
+|   |   |   |   `-- pusht_image_runner.cpython-39.pyc
+|   |   |   |-- real_pusht_image_runner.py
+|   |   |   |-- robomimic_image_runner.py
+|   |   |   `-- robomimic_lowdim_runner.py
+|   |   |-- gym_util
+|   |   |   |-- async_vector_env.py
+|   |   |   |-- multistep_wrapper.py
+|   |   |   |-- __pycache__
+|   |   |   |   |-- async_vector_env.cpython-39.pyc
+|   |   |   |   |-- multistep_wrapper.cpython-39.pyc
+|   |   |   |   `-- video_recording_wrapper.cpython-39.pyc
+|   |   |   |-- sync_vector_env.py
+|   |   |   |-- video_recording_wrapper.py
+|   |   |   `-- video_wrapper.py
+|   |   |-- model
+|   |   |   |-- bet
+|   |   |   |   |-- action_ae
+|   |   |   |   |   |-- discretizers
+|   |   |   |   |   |   `-- k_means.py
+|   |   |   |   |   `-- __init__.py
+|   |   |   |   |-- latent_generators
+|   |   |   |   |   |-- latent_generator.py
+|   |   |   |   |   |-- mingpt.py
+|   |   |   |   |   `-- transformer.py
+|   |   |   |   |-- libraries
+|   |   |   |   |   |-- loss_fn.py
+|   |   |   |   |   `-- mingpt
+|   |   |   |   |       |-- __init__.py
+|   |   |   |   |       |-- LICENSE
+|   |   |   |   |       |-- model.py
+|   |   |   |   |       |-- trainer.py
+|   |   |   |   |       `-- utils.py
+|   |   |   |   `-- utils.py
+|   |   |   |-- common
+|   |   |   |   |-- dict_of_tensor_mixin.py
+|   |   |   |   |-- lr_scheduler.py
+|   |   |   |   |-- module_attr_mixin.py
+|   |   |   |   |-- normalizer.py
+|   |   |   |   |-- __pycache__
+|   |   |   |   |   |-- dict_of_tensor_mixin.cpython-39.pyc
+|   |   |   |   |   |-- lr_scheduler.cpython-39.pyc
+|   |   |   |   |   |-- module_attr_mixin.cpython-39.pyc
+|   |   |   |   |   |-- normalizer.cpython-39.pyc
+|   |   |   |   |   `-- tensor_util.cpython-39.pyc
+|   |   |   |   |-- rotation_transformer.py
+|   |   |   |   |-- shape_util.py
+|   |   |   |   `-- tensor_util.py
+|   |   |   |-- diffusion
+|   |   |   |   |-- conditional_unet1d.py
+|   |   |   |   |-- conv1d_components.py
+|   |   |   |   |-- ema_model.py
+|   |   |   |   |-- mask_generator.py
+|   |   |   |   |-- positional_embedding.py
+|   |   |   |   |-- __pycache__
+|   |   |   |   |   |-- conditional_unet1d.cpython-39.pyc
+|   |   |   |   |   |-- conv1d_components.cpython-39.pyc
+|   |   |   |   |   |-- ema_model.cpython-39.pyc
+|   |   |   |   |   |-- mask_generator.cpython-39.pyc
+|   |   |   |   |   `-- positional_embedding.cpython-39.pyc
+|   |   |   |   `-- transformer_for_diffusion.py
+|   |   |   `-- vision
+|   |   |       |-- crop_randomizer.py
+|   |   |       |-- model_getter.py
+|   |   |       |-- multi_image_obs_encoder.py
+|   |   |       `-- __pycache__
+|   |   |           `-- crop_randomizer.cpython-39.pyc
+|   |   |-- policy
+|   |   |   |-- base_image_policy.py
+|   |   |   |-- base_lowdim_policy.py
+|   |   |   |-- bet_lowdim_policy.py
+|   |   |   |-- diffusion_transformer_hybrid_image_policy.py
+|   |   |   |-- diffusion_transformer_lowdim_policy.py
+|   |   |   |-- diffusion_unet_hybrid_image_policy.py
+|   |   |   |-- diffusion_unet_image_policy.py
+|   |   |   |-- diffusion_unet_lowdim_policy.py
+|   |   |   |-- diffusion_unet_video_policy.py
+|   |   |   |-- ibc_dfo_hybrid_image_policy.py
+|   |   |   |-- ibc_dfo_lowdim_policy.py
+|   |   |   |-- __pycache__
+|   |   |   |   |-- base_image_policy.cpython-39.pyc
+|   |   |   |   `-- diffusion_unet_hybrid_image_policy.cpython-39.pyc
+|   |   |   |-- robomimic_image_policy.py
+|   |   |   `-- robomimic_lowdim_policy.py
+|   |   |-- real_world
+|   |   |   |-- keystroke_counter.py
+|   |   |   |-- multi_camera_visualizer.py
+|   |   |   |-- multi_realsense.py
+|   |   |   |-- __pycache__
+|   |   |   |   `-- video_recorder.cpython-39.pyc
+|   |   |   |-- real_data_conversion.py
+|   |   |   |-- real_env.py
+|   |   |   |-- real_inference_util.py
+|   |   |   |-- realsense_config
+|   |   |   |   |-- 415_high_accuracy_mode.json
+|   |   |   |   `-- 435_high_accuracy_mode.json
+|   |   |   |-- rtde_interpolation_controller.py
+|   |   |   |-- single_realsense.py
+|   |   |   |-- spacemouse.py
+|   |   |   |-- spacemouse_shared_memory.py
+|   |   |   `-- video_recorder.py
+|   |   |-- scripts
+|   |   |   |-- bet_blockpush_conversion.py
+|   |   |   |-- blockpush_abs_conversion.py
+|   |   |   |-- episode_lengths.py
+|   |   |   |-- generate_bet_blockpush.py
+|   |   |   |-- real_dataset_conversion.py
+|   |   |   |-- real_pusht_metrics.py
+|   |   |   |-- real_pusht_successrate.py
+|   |   |   |-- robomimic_dataset_action_comparison.py
+|   |   |   `-- robomimic_dataset_conversion.py
+|   |   |-- shared_memory
+|   |   |   |-- shared_memory_queue.py
+|   |   |   |-- shared_memory_ring_buffer.py
+|   |   |   |-- shared_memory_util.py
+|   |   |   `-- shared_ndarray.py
+|   |   `-- workspace
+|   |       |-- base_workspace.py
+|   |       |-- __pycache__
+|   |       |   |-- base_workspace.cpython-39.pyc
+|   |       |   `-- train_diffusion_unet_hybrid_workspace.cpython-39.pyc
+|   |       |-- train_bet_lowdim_workspace.py
+|   |       |-- train_diffusion_transformer_hybrid_workspace.py
+|   |       |-- train_diffusion_transformer_lowdim_workspace.py
+|   |       |-- train_diffusion_unet_hybrid_workspace.py
+|   |       |-- train_diffusion_unet_image_workspace.py
+|   |       |-- train_diffusion_unet_lowdim_workspace.py
+|   |       |-- train_diffusion_unet_video_workspace.py
+|   |       |-- train_ibc_dfo_hybrid_workspace.py
+|   |       |-- train_ibc_dfo_lowdim_workspace.py
+|   |       |-- train_robomimic_image_workspace.py
+|   |       `-- train_robomimic_lowdim_workspace.py
+|   |-- eval.py
+|   |-- eval_real_robot.py
+|   |-- image_pusht_diffusion_policy_cnn.yaml
+|   |-- LICENSE
+|   |-- media
+|   |   |-- multimodal_sim.png
+|   |   `-- teaser.png
+|   |-- multirun_metrics.py
+|   |-- pyrightconfig.json
+|   |-- ray_exec.py
+|   |-- ray_train_multirun.py
+|   |-- README.md
+|   |-- setup.py
+|   |-- tests
+|   |   |-- test_block_pushing.py
+|   |   |-- test_cv2_util.py
+|   |   |-- test_multi_realsense.py
+|   |   |-- test_pose_trajectory_interpolator.py
+|   |   |-- test_precise_sleep.py
+|   |   |-- test_replay_buffer.py
+|   |   |-- test_ring_buffer.py
+|   |   |-- test_robomimic_image_runner.py
+|   |   |-- test_robomimic_lowdim_runner.py
+|   |   |-- test_shared_queue.py
+|   |   |-- test_single_realsense.py
+|   |   `-- test_timestamp_accumulator.py
+|   |-- train.py
+|   `-- train_telemetry.py
+|-- Dockerfile
+|-- outputs
+|   |-- eval_log_seed42.json
+|   `-- media
+|       |-- 0tpv3oga.mp4
+|       |-- 4c8fhuer.mp4
+|       |-- j38ogs6p.mp4
+|       |-- m3hs5wdq.mp4
+|       |-- sy429sc3.mp4
+|       `-- txj34pn7.mp4
+|-- project_tree.txt
+`-- scripts
+    |-- eval_with_log.py
+    |-- __pycache__
+    |   `-- eval_with_log.cpython-39.pyc
+    |-- run_reproduce.sh
+    `-- run_train.sh
+
+102 directories, 1961 files

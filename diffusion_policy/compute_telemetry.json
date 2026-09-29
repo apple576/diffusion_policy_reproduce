@@ -1,0 +1,19 @@
+{
+    "benchmark": "Push-T (Vision-based)",
+    "task_name": "pusht_image",
+    "hardware": {
+        "gpu_device": "NVIDIA GeForce RTX 4080",
+        "cuda_available": true
+    },
+    "compute_logs": {
+        "peak_vram_gb": 6.1383,
+        "wall_clock_time_sec": 51255.5,
+        "wall_clock_time_human": "14h 14m 15s"
+    },
+    "hyperparameters": {
+        "num_epochs": 3050,
+        "seed": 42,
+        "device": "cuda:0"
+    },
+    "output_directory": "/workspace/diffusion_policy"
+}
