@@ -122,6 +122,9 @@ bash scripts/run_reproduce.sh
 
 ```bash
 docker run --gpus all --rm \
+    --user $(id -u):$(id -g) \
+    -e HOME=/tmp \
+    -e MPLCONFIGDIR=/tmp/matplotlib \
     -v $(pwd):/workspace \
     diff_policy:latest \
     python3 scripts/eval_with_log.py \
