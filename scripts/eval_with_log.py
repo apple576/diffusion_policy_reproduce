@@ -114,22 +114,33 @@ def run_evaluation(checkpoint_path, output_dir, seed=42):
     print(f"-> Log saved to: {log_path}\n")
 
 if __name__ == "__main__":
-    # 預設路徑優先順序：命令列指定 > 根目錄自訓最佳權重 > 官方權重 > 本機訓練目錄
+    import argparse
+
     default_ckpt = "/workspace/checkpoints/epoch=0550-test_mean_score=0.841.ckpt"
     fallback_ckpt = "/workspace/checkpoints/pusht_vision_cnn.ckpt"
     local_train_ckpt = "/workspace/diffusion_policy/data/outputs/2026.09.26/14.18.30_train_diffusion_unet_hybrid_pusht_image/checkpoints/epoch=0550-test_mean_score=0.841.ckpt"
 
-    if len(sys.argv) > 1 and os.path.exists(sys.argv[1]):
-        ckpt = sys.argv[1]
-    elif os.path.exists(default_ckpt):
-        ckpt = default_ckpt
+    # 自動判斷預設權重
+    if os.path.exists(default_ckpt):
+        resolved_default_ckpt = default_ckpt
     elif os.path.exists(fallback_ckpt):
-        ckpt = fallback_ckpt
+        resolved_default_ckpt = fallback_ckpt
     elif os.path.exists(local_train_ckpt):
-        ckpt = local_train_ckpt
+        resolved_default_ckpt = local_train_ckpt
     else:
-        ckpt = default_ckpt
+        resolved_default_ckpt = default_ckpt
 
-    out = "/workspace/outputs"
-    seed = int(sys.argv[2]) if len(sys.argv) > 2 else 42
-    run_evaluation(ckpt, out, seed=seed)
+    parser = argparse.ArgumentParser(description="Push-T Evaluation with Telemetry")
+    parser.add_argument("--checkpoint", type=str, default=resolved_default_ckpt, help="Path to checkpoint .ckpt")
+    parser.add_argument("--output", type=str, default="/workspace/outputs", help="Output directory or JSON path")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed")
+
+    args = parser.parse_args()
+
+    # 若傳入的是 .json 檔案路徑，取出其目錄作為 output_dir
+    if args.output.endswith(".json"):
+        out_dir = os.path.dirname(args.output) or "/workspace/outputs"
+    else:
+        out_dir = args.output
+
+    run_evaluation(args.checkpoint, out_dir, seed=args.seed)

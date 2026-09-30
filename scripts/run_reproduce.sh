@@ -45,7 +45,7 @@ fi
 
 echo "=== 執行 Push-T 視覺閉環評測 (50 回合) ==="
 echo "使用權重: $CKPT_PATH"
-python /workspace/scripts/eval_with_log.py "$CKPT_PATH" 42
+python /workspace/scripts/eval_with_log.py --checkpoint "$CKPT_PATH" --seed 42
 
 if [ "$(id -u)" = "0" ]; then
     HOST_UID=$(stat -c '%u' /workspace)
