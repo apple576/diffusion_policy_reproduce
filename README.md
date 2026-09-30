@@ -51,6 +51,12 @@ cd diffusion_policy_reproduce
 chmod +x scripts/*.sh
 docker build -t diff_policy:latest .
 ```
+> **💡 建置排錯提示（連線逾時處理）：**
+> * 安裝大型相依套件時，若發現終端機畫面停在某一行（如 `[ 8/10] RUN pip install...`）超過 **3～5 分鐘進度完全凍結**，通常為 PyPI 或網路節點偶發性的 Socket 斷流假死。
+> * **處理方式**：直接按下 **`Ctrl + C`** 強制中斷，並再次執行 `docker build -t diff_policy:latest .`。
+> * **快取機制保護**：Docker 會自動命中前面已經完成的步驟（顯示為 `CACHED`），直接從剛才卡住的步驟接續下載，不會重複浪費時間重載前面的系統層或 PyTorch。
+
+
 
 ### 步驟 3：一鍵執行推論評測 (One-Command Reproduce)
 
