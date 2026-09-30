@@ -74,11 +74,15 @@ def run_evaluation(checkpoint_path, output_dir, seed=42, custom_json_name=None):
     policy.eval()
 
     # 6. 動態綁定 test_start_seed，使每次測試的關卡環境真正產生變化
-    print(f"Executing simulation rollouts (Push-T Env with Start Seed: {seed * 1000})...")
+    # 預設 seed=42 時嚴格使用官方基準關卡 100000；自訂其他種子時才變更關卡
+    MAX_GYM_SEED = 2**32 - 10000
+    safe_seed = abs(int(seed)) % MAX_GYM_SEED
+    env_start_seed = 100000 if seed == 42 else safe_seed
+
     env_runner = hydra.utils.instantiate(
         cfg.task.env_runner,
         output_dir=output_dir,
-        test_start_seed=seed * 1000
+        test_start_seed=env_start_seed
     )
     runner_log = env_runner.run(policy)
     
